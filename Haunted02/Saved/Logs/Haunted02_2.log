@@ -1,0 +1,934 @@
+﻿Log file open, 10/02/17 15:50:01
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: Haunted02
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(920954109) SRandInit(920954109).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.170486
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3658906
+LogInit: Engine Version: 4.17.2-3658906+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line: -EpicPortal 
+LogInit: Base directory: D:/nosave/Guillaume/Games/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.02-13.50.01:928][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.02-13.50.01:928][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.02-13.50.01:943][  0]LogInit: Computer: LENOV146DSY
+[2017.10.02-13.50.01:943][  0]LogInit: User: gmr2
+[2017.10.02-13.50.01:943][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.02-13.50.01:943][  0]LogInit: High frequency timer resolution =3.507246 MHz
+[2017.10.02-13.50.01:944][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2017.10.02-13.50.01:944][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.02-13.50.01:944][  0]LogMemory: Process Physical Memory: 227.75 MB used, 227.75 MB peak
+[2017.10.02-13.50.01:944][  0]LogMemory: Process Virtual Memory: 285.58 MB used, 285.58 MB peak
+[2017.10.02-13.50.01:944][  0]LogMemory: Physical Memory: 7089.75 MB used,  25629.42 MB free, 32719.17 MB total
+[2017.10.02-13.50.01:944][  0]LogMemory: Virtual Memory: 658.83 MB used,  25629.42 MB free, 8388608.00 MB total
+[2017.10.02-13.50.02:105][  0]LogInit: Using OS detected language (en-US).
+[2017.10.02-13.50.02:105][  0]LogInit: Using OS detected locale (en-US).
+[2017.10.02-13.50.02:112][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.02-13.50.03:088][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.02-13.50.03:107][  0]LogD3D11RHI:    0. 'NVIDIA Quadro M6000' (Feature Level 11_0)
+[2017.10.02-13.50.03:107][  0]LogD3D11RHI:       12176/0/16103 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.10.02-13.50.03:107][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.02-13.50.03:113][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.02-13.50.03:113][  0]LogD3D11RHI:     GPU DeviceId: 0x17f0 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.02-13.50.03:113][  0]LogWindows: EnumDisplayDevices:
+[2017.10.02-13.50.03:114][  0]LogWindows:    0. 'NVIDIA Quadro M6000' (P:1 D:1)
+[2017.10.02-13.50.03:114][  0]LogWindows:    1. 'NVIDIA Quadro M6000' (P:0 D:1)
+[2017.10.02-13.50.03:114][  0]LogWindows:    2. 'NVIDIA Quadro M6000' (P:0 D:0)
+[2017.10.02-13.50.03:114][  0]LogWindows:    3. 'NVIDIA Quadro M6000' (P:0 D:0)
+[2017.10.02-13.50.03:114][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.10.02-13.50.03:115][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.10.02-13.50.03:115][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.10.02-13.50.03:115][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.10.02-13.50.03:115][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro M6000
+[2017.10.02-13.50.03:115][  0]LogD3D11RHI:   Driver Version: 381.65 (internal:22.21.13.8165, unified:381.65)
+[2017.10.02-13.50.03:115][  0]LogD3D11RHI:      Driver Date: 3-31-2017
+[2017.10.02-13.50.03:115][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.02-13.50.03:129][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.02-13.50.03:145][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.10.02-13.50.03:229][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Intermediate/Shaders/WorkingDirectory/63404/).
+[2017.10.02-13.50.03:229][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/gmr2/AppData/Local/Temp/UnrealShaderWorkingDir/105C1E2D4152E4C7FD126FBCB06ACC2C/'.
+[2017.10.02-13.50.03:229][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.02-13.50.04:247][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.02-13.50.04:315][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.02-13.50.04:383][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.02-13.50.04:450][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.02-13.50.04:518][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.02-13.50.04:587][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.02-13.50.04:655][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.02-13.50.04:723][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.02-13.50.04:784][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.02-13.50.04:851][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.02-13.50.04:918][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.02-13.50.04:986][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.02-13.50.05:053][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.02-13.50.05:121][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.02-13.50.05:189][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.02-13.50.05:323][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.02-13.50.05:323][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.02-13.50.05:378][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.02-13.50.05:483][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.02-13.50.05:511][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.02-13.50.05:578][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.02-13.50.05:645][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.02-13.50.05:714][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.02-13.50.05:782][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.02-13.50.05:782][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.02-13.50.06:273][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.02-13.50.06:382][  0]LogDerivedDataCache: Loaded boot cache 0.11s 93MB C:/Users/gmr2/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.02-13.50.06:382][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/gmr2/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.02-13.50.06:382][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.02-13.50.06:382][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.02-13.50.06:382][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.02-13.50.06:382][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.02-13.50.06:402][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.02-13.50.06:414][  0]LogDerivedDataCache: Using Local data cache path C:/Users/gmr2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.02-13.50.06:426][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.02-13.50.06:426][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.02-13.50.06:428][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.02-13.50.06:428][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.02-13.50.06:786][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2017.10.02-13.50.06:987][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.02-13.50.06:991][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.02-13.50.07:462][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.02-13.50.07:519][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.02-13.50.07:519][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.02-13.50.07:519][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.02-13.50.07:519][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.02-13.50.07:519][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.02-13.50.07:909][  0]LogNetVersion: Haunted02 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 424621595)
+[2017.10.02-13.50.08:166][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.046667 seconds
+[2017.10.02-13.50.08:172][  0]LogUObjectArray: 35628 objects as part of root set at end of initial load.
+[2017.10.02-13.50.08:172][  0]LogUObjectAllocator: 7494032 out of 0 bytes used by permanent object pool.
+[2017.10.02-13.50.08:172][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.02-13.50.08:218][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.02-13.50.11:380][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.02-13.50.11:415][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.02-13.50.12:215][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.02-13.50.12:727][  0]SourceControl: Source control is disabled
+[2017.10.02-13.50.12:727][  0]SourceControl: Source control is disabled
+[2017.10.02-13.50.12:788][  0]SourceControl: Source control is disabled
+[2017.10.02-13.50.12:851][  0]SourceControl: Source control is disabled
+[2017.10.02-13.50.13:567][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.02-13.50.13:880][  0]LogOcInput: OculusInput pre-init called
+[2017.10.02-13.50.14:129][  0]LogEngine: Initializing Engine...
+[2017.10.02-13.50.14:368][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.02-13.50.14:368][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.02-13.50.14:537][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.02-13.50.14:549][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.02-13.50.14:566][  0]LogInit: FAudioDevice initialized.
+[2017.10.02-13.50.15:414][  0]LogDerivedDataCache: Saved boot cache 0.85s 93MB C:/Users/gmr2/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.02-13.50.15:424][  0]LogInit: Texture streaming: Enabled
+[2017.10.02-13.50.15:515][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.02-13.50.15:812][  0]LogInit: Transaction tracking system initialized
+[2017.10.02-13.50.16:214][  0]BlueprintLog: New page: Editor Load
+[2017.10.02-13.50.17:311][  0]LocalizationService: Localization service is disabled
+[2017.10.02-13.50.18:178][  0]LogConsoleResponse: Display: 
+[2017.10.02-13.50.18:362][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.02-13.50.18:362][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.02-13.50.18:362][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.02-13.50.19:142][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/' took 0.01s
+[2017.10.02-13.50.19:619][  0]SourceControl: Source control is disabled
+[2017.10.02-13.50.19:619][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.02-13.50.19:620][  0]LightingResults: New page: Lighting Build
+[2017.10.02-13.50.19:675][  0]MapCheck: New page: Map Check
+[2017.10.02-13.50.19:675][  0]LightingResults: New page: Lighting Build
+[2017.10.02-13.50.19:897][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.02-13.50.19:902][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.02-13.50.19:915][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.02-13.50.19:993][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 78.02ms to complete.
+[2017.10.02-13.50.19:993][  0]LogFileHelpers: Loading map 'Template_Default' took 0.374
+[2017.10.02-13.50.20:144][  0]LogCollectionManager: Loaded 0 collections in 0.001678 seconds
+[2017.10.02-13.50.20:240][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/Collections/' took 0.01s
+[2017.10.02-13.50.20:240][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Developers/gmr2/Collections/' took 0.01s
+[2017.10.02-13.50.20:240][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Collections/' took 0.01s
+[2017.10.02-13.50.20:240][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.02-13.50.20:249][  0]LogContentBrowser: Native class hierarchy populated in 0.0091 seconds. Added 2383 classes and 495 folders.
+[2017.10.02-13.50.20:322][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.10.02-13.50.20:375][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.10.02-13.50.20:431][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.02-13.50.20:507][  0]LogDirectoryWatcher: Warning: Failed to begin reading directory changes for C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Plugins/. Error: The system cannot find the file specified. (0x00000002)
+[2017.10.02-13.50.20:511][  0]LogSlate: Took 0.000616 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.02-13.50.20:513][  0]LogSlate: Took 0.000378 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.02-13.50.20:519][  0]LogSlate: Took 0.000496 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.02-13.50.20:646][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2017.10.02-13.50.20:919][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.02-13.50.20:920][  0]LogLoad: (Engine Initialization) Total time: 20.84 seconds
+[2017.10.02-13.50.20:920][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.02-13.50.20:920][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.02-13.50.20:920][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.02-13.50.20:952][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.02-13.50.21:000][  0]LogSlate: Took 0.000508 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.02-13.50.21:020][  1]LogAssetRegistry: Asset discovery search completed in 14.2534 seconds
+[2017.10.02-13.50.21:022][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.02-13.50.21:022][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000037 seconds (updated 0 objects)
+[2017.10.02-13.50.25:827][499]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/' was aborted.
+[2017.10.02-13.50.33:604][339]LogSlate: Took 0.000542 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.02-13.50.33:615][339]LogAIModule: Creating AISystem for world HauntedMap01
+[2017.10.02-13.50.33:630][339]Cmd: MAP LOAD FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Level/HauntedMap01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.02-13.50.33:631][339]LightingResults: New page: Lighting Build
+[2017.10.02-13.50.33:631][339]LoadErrors: New page: Loading map: HauntedMap01.umap
+[2017.10.02-13.50.33:632][339]MapCheck: New page: Map Check
+[2017.10.02-13.50.33:632][339]LightingResults: New page: Lighting Build
+[2017.10.02-13.50.33:689][339]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.02-13.50.33:714][339]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.02-13.50.33:795][339]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 80.273ms to complete.
+[2017.10.02-13.50.33:795][339]LogFileHelpers: Loading map 'HauntedMap01' took 0.165
+[2017.10.02-13.50.50:142][ 78]LogEditorViewport: Clicking Background
+[2017.10.02-13.52.16:354][983]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Texture/tile_basicworld" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Texture/tile_basicworld.uasset" SILENT=true
+[2017.10.02-13.52.16:361][983]LogSavePackage: Save=3.78ms
+[2017.10.02-13.52.16:361][983]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/tile_basicworld582997F44EAB0A5B43BD42B32DFE918C.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Texture/tile_basicworld.uasset'
+[2017.10.02-13.52.16:365][983]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Texture/tile_basicworld.uasset
+[2017.10.02-13.52.30:978][643]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Texture/t_basicworld" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Texture/t_basicworld.uasset" SILENT=true
+[2017.10.02-13.52.30:984][643]LogSavePackage: Save=3.36ms
+[2017.10.02-13.52.30:984][643]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/t_basicworld6924017A4F99E56F38E544852E4DCCD1.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Texture/t_basicworld.uasset'
+[2017.10.02-13.52.30:988][643]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Texture/t_basicworld.uasset
+[2017.10.02-13.52.39:001][541]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Texture/texture_basicworld" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Texture/texture_basicworld.uasset" SILENT=true
+[2017.10.02-13.52.39:006][541]LogSavePackage: Save=3.23ms
+[2017.10.02-13.52.39:006][541]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/texture_basicworldC2B22EC9459CAD403F951DA51B3EF3C1.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Texture/texture_basicworld.uasset'
+[2017.10.02-13.52.39:012][541]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Texture/texture_basicworld.uasset
+[2017.10.02-13.52.44:676][200]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Texture/tile_basicworld" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Texture/tile_basicworld.uasset" SILENT=true
+[2017.10.02-13.52.44:684][200]LogSavePackage: Save=5.82ms
+[2017.10.02-13.52.44:684][200]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/tile_basicworldDAA6021E44F11B6A5C2290A82566D0E8.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Texture/tile_basicworld.uasset'
+[2017.10.02-13.52.44:689][200]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Texture/tile_basicworld.uasset
+[2017.10.02-13.52.56:218][273]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Tileset/tile_basicworld" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Tileset/tile_basicworld.uasset" SILENT=true
+[2017.10.02-13.52.56:226][273]LogSavePackage: Save=5.66ms
+[2017.10.02-13.52.56:226][273]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/tile_basicworldD782E0AB4A154951C547BAAE3BA2009B.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Tileset/tile_basicworld.uasset'
+[2017.10.02-13.52.56:230][273]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Tileset/tile_basicworld.uasset
+[2017.10.02-13.53.01:354][724]LogSlate: Took 0.000521 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.02-13.56.56:419][303]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Tileset/tile_basicworld" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Tileset/tile_basicworld.uasset" SILENT=true
+[2017.10.02-13.56.56:520][303]LogSavePackage: Save=6.10ms
+[2017.10.02-13.56.56:520][303]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/tile_basicworld2FF4A0B4470686C1F2C703926069DC59.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Tileset/tile_basicworld.uasset'
+[2017.10.02-13.56.56:524][303]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Tileset/tile_basicworld.uasset
+[2017.10.02-13.57.22:226][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/TileMap/tm_world01" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/TileMap/tm_world01.uasset" SILENT=true
+[2017.10.02-13.57.22:231][792]LogSavePackage: Save=2.29ms
+[2017.10.02-13.57.22:231][792]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/tm_world010720C5AA49F45BBC8866ABBCB542A81E.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/TileMap/tm_world01.uasset'
+[2017.10.02-13.57.22:236][792]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/TileMap/tm_world01.uasset
+[2017.10.02-13.57.24:092][923]LogRenderer: Reallocating scene render targets to support 1208x964 Format 10 NumSamples 1 (Frame:1).
+[2017.10.02-13.58.53:860][751]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:/Users/gmr2/Pictures/Texture/knight_a.png)
+[2017.10.02-13.58.53:866][751]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-13.58.58:607][152]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.10.02-13.59.27:307][382]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-13.59.48:097][  6]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-13.59.49:158][103]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-13.59.49:836][150]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-13.59.50:993][233]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-13.59.52:270][329]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-13.59.55:376][576]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-13.59.56:482][664]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.00:964][  7]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.01:894][ 69]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.04:570][243]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.05:405][300]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.06:957][404]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.09:919][584]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.10:637][625]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.16:061][  4]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.16:727][ 62]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.17:271][108]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.18:131][181]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.18:509][209]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.18:953][241]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.22:557][531]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.23:077][575]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.23:834][640]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.24:392][677]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.25:857][773]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.27:096][866]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.28:623][985]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.29:398][ 49]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.32:523][292]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.36:319][604]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.37:135][664]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.40:430][932]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.41:251][  6]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.42:147][ 83]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.42:674][124]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.43:276][169]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.44:957][307]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.46:058][392]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.53:523][983]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.00.54:739][ 75]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.01.08:465][157]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Texture/knight_a" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Texture/knight_a.uasset" SILENT=true
+[2017.10.02-14.01.08:477][157]LogSavePackage: Save=9.92ms
+[2017.10.02-14.01.08:477][157]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a91A913ED47DF2B23FD22A092CEC19D3B.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Texture/knight_a.uasset'
+[2017.10.02-14.01.08:480][157]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Texture/knight_a.uasset
+[2017.10.02-14.01.19:678][ 87]LogRenderer: Reallocating scene render targets to support 1528x964 Format 10 NumSamples 1 (Frame:1).
+[2017.10.02-14.01.29:781][797]LogSlate: Took 0.000510 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.02-14.05.22:288][565]LogSlate: Took 0.000399 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.02-14.05.22:342][565]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/HauntedMap01' took 0.015
+[2017.10.02-14.05.22:345][565]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Texture/knight_a_Sprite] ([1] browsable assets)...
+[2017.10.02-14.05.22:356][565]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/Art/Texture/knight_a_Sprite.knight_a_Sprite]
+[2017.10.02-14.05.22:356][565]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Texture/knight_a_Sprite]
+[2017.10.02-14.05.22:366][565]LogSavePackage: Save=8.00ms
+[2017.10.02-14.05.22:366][565]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_Auto1B94E20D14C3B8C743FC469A1F676C8A4.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/Autosaves/Game/Art/Texture/knight_a_Sprite_Auto1.uasset'
+[2017.10.02-14.05.22:368][565]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/Autosaves/Game/Art/Texture/knight_a_Sprite_Auto1.uasset
+[2017.10.02-14.05.22:368][565]LogFileHelpers: Auto-saving content packages took 0.025
+[2017.10.02-14.42.14:863][542]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.10.02-14.44.29:904][914]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/HauntedMap01' took 0.010
+[2017.10.02-14.49.56:571][181]LogWindows: LaunchFileInExternalEditor C:/Users/gmr2/Pictures/Texture/knight_a.png 
+[2017.10.02-14.49.56:625][181]LogWindows: Launch application code for C:/Users/gmr2/Pictures/Texture/knight_a.png : 42
+[2017.10.02-14.50.24:587][489]LogEditorFactories: Performing atomic reimport of [C:/Users/gmr2/Pictures/Texture/knight_a.png]
+[2017.10.02-14.50.24:587][489]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/gmr2/Pictures/Texture/knight_a.png)
+[2017.10.02-14.50.24:589][489]LogTexture: Display: Building textures: knight_a (BGRA8, 256X256)
+[2017.10.02-14.50.24:601][489]LogTexture: Display: Building textures: knight_a (BGRA8, 256X256)
+[2017.10.02-14.50.24:610][489]LogEditorFactories: -- imported successfully
+[2017.10.02-14.50.43:390][409]LogWindows: LaunchFileInExternalEditor C:/Users/gmr2/Pictures/Texture/knight_a.png 
+[2017.10.02-14.50.43:398][409]LogWindows: Launch application code for C:/Users/gmr2/Pictures/Texture/knight_a.png : 42
+[2017.10.02-14.53.23:677][241]LogEditorFactories: Performing atomic reimport of [C:/Users/gmr2/Pictures/Texture/knight_a.png]
+[2017.10.02-14.53.23:678][241]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/gmr2/Pictures/Texture/knight_a.png)
+[2017.10.02-14.53.23:682][241]LogTexture: Display: Building textures: knight_a (BGRA8, 256X256)
+[2017.10.02-14.53.23:690][241]LogEditorFactories: -- imported successfully
+[2017.10.02-14.54.04:180][743]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Texture/fp_rightknight" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Texture/fp_rightknight.uasset" SILENT=true
+[2017.10.02-14.54.04:187][743]LogSavePackage: Save=4.98ms
+[2017.10.02-14.54.04:187][743]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fp_rightknight7A8982994B2FADF4DD4535BA7113321B.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Texture/fp_rightknight.uasset'
+[2017.10.02-14.54.04:191][743]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Texture/fp_rightknight.uasset
+[2017.10.02-14.54.23:072][927]Cmd: TRANSACTION UNDO
+[2017.10.02-14.54.23:072][927]LogEditorTransaction: Undo Delete Keyframe
+[2017.10.02-14.54.24:790][ 25]Cmd: TRANSACTION UNDO
+[2017.10.02-14.54.24:790][ 25]LogEditorTransaction: Undo Delete Keyframe
+[2017.10.02-14.54.44:356][368]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Texture/fp_rightknight" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Texture/fp_rightknight.uasset" SILENT=true
+[2017.10.02-14.54.44:365][368]LogSavePackage: Save=4.24ms
+[2017.10.02-14.54.44:365][368]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fp_rightknight4EEC7D184B4184D6788CD7B3AFBC35DE.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Texture/fp_rightknight.uasset'
+[2017.10.02-14.54.44:368][368]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Texture/fp_rightknight.uasset
+[2017.10.02-14.55.38:203][890]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Texture/fb_rightknight" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Texture/fb_rightknight.uasset" SILENT=true
+[2017.10.02-14.55.38:209][890]LogSavePackage: Save=4.17ms
+[2017.10.02-14.55.38:209][890]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_rightknight4BBD677348286DE583A435838C72C637.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Texture/fb_rightknight.uasset'
+[2017.10.02-14.55.38:212][890]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Texture/fb_rightknight.uasset
+[2017.10.02-14.55.43:461][192]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Flipbook/fb_rightknight" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_rightknight.uasset" SILENT=true
+[2017.10.02-14.55.43:467][192]LogSavePackage: Save=4.37ms
+[2017.10.02-14.55.43:467][192]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_rightknight4F93FE2C48F655523E49B6AD916BB6A1.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_rightknight.uasset'
+[2017.10.02-14.55.43:472][192]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_rightknight.uasset
+[2017.10.02-14.56.23:933][902]Cmd: PROFILEGPU
+[2017.10.02-14.56.23:952][902]Profiling the next GPU frame
+[2017.10.02-14.56.25:175][905]LogD3D11RHI: Warning: 
+[2017.10.02-14.56.25:176][905]LogD3D11RHI: Warning: 
+[2017.10.02-14.56.25:206][906]LogRHI: Perf marker hierarchy, total GPU time 3.75ms
+[2017.10.02-14.56.25:206][906]LogRHI: Warning: Profiled range was continuous.
+[2017.10.02-14.56.25:206][906]LogRHI: 100.0% 3.75ms   FRAME 344 draws 1122 prims 2135 verts 7 prims/ms 13 verts/ms
+[2017.10.02-14.56.25:206][906]LogRHI: 78.9% 2.96ms   Scene 91 draws 1093 prims 2077 verts
+[2017.10.02-14.56.25:206][906]LogRHI:     0.2% 0.01ms   PrePass DDM_AllOpaque (Forced by DBuffer) 1 draws 0 prims 0 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.2% 0.01ms   BeginRenderingPrePass 1 draws 0 prims 0 verts
+[2017.10.02-14.56.25:207][906]LogRHI:     0.0% 0.00ms   BeginOcclusionTests 0 draws 0 prims 0 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.0% 0.00ms   ViewOcclusionTests 0 0 draws 0 prims 0 verts
+[2017.10.02-14.56.25:207][906]LogRHI:    46.0% 1.72ms   HZB SetupMip 0 1024x512 1 draws 1 prims 3 verts
+[2017.10.02-14.56.25:207][906]LogRHI:     0.7% 0.02ms   HZB SetupMips Mips:1..9 512x256 9 draws 9 prims 27 verts
+[2017.10.02-14.56.25:207][906]LogRHI:     0.7% 0.02ms   ComputeLightGrid 5 draws 5 prims 0 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.3% 0.01ms   CullLights 19x9x32 NumLights 0 NumCaptures 0 4 draws 4 prims 0 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.2% 0.01ms   Compact 1 draws 1 prims 0 verts
+[2017.10.02-14.56.25:207][906]LogRHI:     0.0% 0.00ms   CompositionBeforeBasePass 0 draws 0 prims 0 verts
+[2017.10.02-14.56.25:207][906]LogRHI:     0.2% 0.01ms   BeginRenderingSceneColor 1 draws 0 prims 0 verts
+[2017.10.02-14.56.25:207][906]LogRHI:     0.0% 0.00ms   BasePass 0 draws 0 prims 0 verts
+[2017.10.02-14.56.25:207][906]LogRHI:     0.0% 0.00ms   RenderVelocities 1 draws 0 prims 0 verts
+[2017.10.02-14.56.25:207][906]LogRHI:     6.1% 0.23ms   LightCompositionTasks_PreLighting 4 draws 4 prims 12 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.4% 0.01ms   AmbientOcclusionSetup 603x287 1 draws 1 prims 3 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        1.6% 0.06ms   AmbientOcclusionPS 604x287 SetupAsInput=1 Upsample=0 ShaderQuality=2 1 draws 1 prims 3 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        3.8% 0.14ms   AmbientOcclusionPS 1207x574 SetupAsInput=0 Upsample=1 ShaderQuality=2 1 draws 1 prims 3 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.3% 0.01ms   ApplyAOToBasePassSceneColor 1207x574 1 draws 1 prims 3 verts
+[2017.10.02-14.56.25:207][906]LogRHI:     0.1% 0.00ms   ClearStencilFromBasePass 1 draws 0 prims 0 verts
+[2017.10.02-14.56.25:207][906]LogRHI:     1.2% 0.05ms   ClearTranslucentVolumeLighting 1 draws 128 prims 256 verts
+[2017.10.02-14.56.25:207][906]LogRHI:     0.0% 0.00ms   Lights 0 draws 0 prims 0 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.0% 0.00ms   DirectLighting 0 draws 0 prims 0 verts
+[2017.10.02-14.56.25:207][906]LogRHI:           0.0% 0.00ms   NonShadowedLights 0 draws 0 prims 0 verts
+[2017.10.02-14.56.25:207][906]LogRHI:              0.0% 0.00ms   StandardDeferredLighting 0 draws 0 prims 0 verts
+[2017.10.02-14.56.25:207][906]LogRHI:           0.0% 0.00ms   IndirectLighting 0 draws 0 prims 0 verts
+[2017.10.02-14.56.25:207][906]LogRHI:     6.7% 0.25ms   FilterTranslucentVolume 64x64x64 Cascades:2 2 draws 256 prims 512 verts 1018 prims/ms 2036 verts/ms
+[2017.10.02-14.56.25:207][906]LogRHI:     0.6% 0.02ms   ScreenSpaceReflections 1207x574 2 draws 9 prims 13 verts
+[2017.10.02-14.56.25:207][906]LogRHI:     0.4% 0.02ms   ReflectionApply 1 draws 2 prims 4 verts
+[2017.10.02-14.56.25:207][906]LogRHI:     0.0% 0.00ms   Translucency 1 draws 8 prims 10 verts
+[2017.10.02-14.56.25:207][906]LogRHI:     0.0% 0.00ms   Translucency 1 draws 0 prims 0 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.0% 0.00ms   BeginSeparateTranslucency 1 draws 0 prims 0 verts
+[2017.10.02-14.56.25:207][906]LogRHI:    15.8% 0.59ms   PostProcessing 60 draws 671 prims 1240 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        1.1% 0.04ms   BokehDOFRecombine#2 1207x574 2 draws 9 prims 13 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        2.6% 0.10ms   TemporalAA 1207x574 3 draws 10 prims 16 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.3% 0.01ms   Downsample 604x287 2 draws 9 prims 13 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.7% 0.03ms   PostProcessHistogram 1 draws 1 prims 0 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.3% 0.01ms   PostProcessHistogramReduce 1 draws 1 prims 3 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.4% 0.01ms   PostProcessEyeAdaptation 1 draws 1 prims 3 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.0% 0.00ms   Downsample 302x144 2 draws 9 prims 13 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.1% 0.00ms   Downsample 151x72 2 draws 9 prims 13 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.1% 0.00ms   Downsample 75x36 2 draws 9 prims 13 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.1% 0.00ms   Downsample 38x18 2 draws 9 prims 13 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.1% 0.00ms   Downsample 19x9 2 draws 9 prims 13 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.2% 0.01ms   PostProcessWeightedSampleSum#26 10x10 in 12x16 2 draws 9 prims 13 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.2% 0.01ms   PostProcessWeightedSampleSum#26 19x10 in 24x16 2 draws 9 prims 13 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.0% 0.00ms   PostProcessWeightedSampleSum#24 19x18 in 24x31 2 draws 9 prims 13 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.1% 0.01ms   PostProcessWeightedSampleSum#24 38x18 in 48x31 2 draws 9 prims 13 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.0% 0.00ms   PostProcessWeightedSampleSum#17 76x36 in 96x61 2 draws 9 prims 13 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.1% 0.01ms   PostProcessWeightedSampleSum#17 76x36 in 96x61 2 draws 9 prims 13 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.0% 0.00ms   PostProcessWeightedSampleSum#8 151x72 in 191x121 2 draws 9 prims 13 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.1% 0.01ms   PostProcessWeightedSampleSum#8 151x72 in 191x121 2 draws 9 prims 13 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.1% 0.00ms   PostProcessWeightedSampleSum#8 302x144 in 382x241 2 draws 9 prims 13 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.2% 0.01ms   PostProcessWeightedSampleSum#8 302x144 in 382x241 2 draws 9 prims 13 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.2% 0.01ms   PostProcessWeightedSampleSum#5 604x287 in 764x482 2 draws 9 prims 13 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.5% 0.02ms   PostProcessWeightedSampleSum#5 604x287 in 764x482 2 draws 9 prims 13 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.1% 0.00ms   PostProcessCombineLUTs [1] 32x32x32 1 draws 64 prims 128 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.9% 0.03ms   Tonemapper#4 GammaOnly=0 HandleScreenPercentage=0  1207x574 2 draws 9 prims 13 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        2.6% 0.10ms   PostProcessSelectionOutlineBuffer 8 draws 10 prims 20 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        0.7% 0.03ms   PostProcessSelectionOutline 1 draws 1 prims 3 verts
+[2017.10.02-14.56.25:207][906]LogRHI:        4.1% 0.16ms   CompositeEditorPrimitives 4 draws 403 prims 807 verts
+[2017.10.02-14.56.25:207][906]LogRHI:           0.5% 0.02ms   ClearViewEditorPrimitives 1 draws 2 prims 4 verts
+[2017.10.02-14.56.25:208][906]LogRHI:           1.8% 0.07ms   RenderEditorPrimitives 2 draws 400 prims 800 verts
+[2017.10.02-14.56.25:208][906]LogRHI:  0.0% 0.00ms   CanvasClear 1 draws 2 prims 4 verts
+[2017.10.02-14.56.25:208][906]LogRHI:  0.0% 0.00ms   CanvasClear 1 draws 2 prims 4 verts
+[2017.10.02-14.56.25:208][906]LogRHI: 10.2% 0.38ms   SlateUI 157 draws 0 prims 0 verts
+[2017.10.02-14.56.25:208][906]LogRHI:  9.8% 0.37ms   SlateUI 82 draws 0 prims 0 verts
+[2017.10.02-14.56.25:208][906]LogRHI: Total Nodes 100 Draws 344
+[2017.10.02-14.56.25:208][906]LogRHI: 
+[2017.10.02-14.56.25:208][906]LogRHI: 
+[2017.10.02-14.56.47:888][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_0" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_0.uasset" SILENT=true
+[2017.10.02-14.56.47:896][615]LogSavePackage: Save=5.55ms
+[2017.10.02-14.56.47:896][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_01A07A7124DEDFA26071D1F9AD2532E6B.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_0.uasset'
+[2017.10.02-14.56.47:901][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_0.uasset
+[2017.10.02-14.56.47:912][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_1" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_1.uasset" SILENT=true
+[2017.10.02-14.56.47:993][615]LogSavePackage: Save=78.02ms
+[2017.10.02-14.56.47:993][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_14404F68D490AD62A3755D69497105599.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_1.uasset'
+[2017.10.02-14.56.47:998][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_1.uasset
+[2017.10.02-14.56.48:009][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_2" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_2.uasset" SILENT=true
+[2017.10.02-14.56.48:025][615]LogSavePackage: Save=5.25ms
+[2017.10.02-14.56.48:025][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_2280C57FB4B7C78EC6F32DD920EB405E1.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_2.uasset'
+[2017.10.02-14.56.48:030][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_2.uasset
+[2017.10.02-14.56.48:041][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_3" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_3.uasset" SILENT=true
+[2017.10.02-14.56.48:048][615]LogSavePackage: Save=5.12ms
+[2017.10.02-14.56.48:048][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_3EE0C8C294D8F32318C416C9B5FAA071F.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_3.uasset'
+[2017.10.02-14.56.48:052][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_3.uasset
+[2017.10.02-14.56.48:064][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_4" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_4.uasset" SILENT=true
+[2017.10.02-14.56.48:095][615]LogSavePackage: Save=5.25ms
+[2017.10.02-14.56.48:095][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_4A841D077461FDAA713A46DB5570DB66C.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_4.uasset'
+[2017.10.02-14.56.48:099][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_4.uasset
+[2017.10.02-14.56.48:110][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_5" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_5.uasset" SILENT=true
+[2017.10.02-14.56.48:117][615]LogSavePackage: Save=5.09ms
+[2017.10.02-14.56.48:117][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_54E5042884FC4DEE6780C8ABBD5902AFC.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_5.uasset'
+[2017.10.02-14.56.48:122][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_5.uasset
+[2017.10.02-14.56.48:133][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_6" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_6.uasset" SILENT=true
+[2017.10.02-14.56.48:140][615]LogSavePackage: Save=5.22ms
+[2017.10.02-14.56.48:140][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_6EA8503EC49CFF98D45BF4C9FC5F4B408.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_6.uasset'
+[2017.10.02-14.56.48:144][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_6.uasset
+[2017.10.02-14.56.48:156][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_7" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_7.uasset" SILENT=true
+[2017.10.02-14.56.48:221][615]LogSavePackage: Save=5.34ms
+[2017.10.02-14.56.48:221][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_713E24FF646A66899A53BC2BC0EEF6A45.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_7.uasset'
+[2017.10.02-14.56.48:226][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_7.uasset
+[2017.10.02-14.56.48:237][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_8" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_8.uasset" SILENT=true
+[2017.10.02-14.56.48:244][615]LogSavePackage: Save=5.25ms
+[2017.10.02-14.56.48:244][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_8CB20B183452E18F345C005B07B9008B1.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_8.uasset'
+[2017.10.02-14.56.48:248][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_8.uasset
+[2017.10.02-14.56.48:259][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_9" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_9.uasset" SILENT=true
+[2017.10.02-14.56.48:266][615]LogSavePackage: Save=5.15ms
+[2017.10.02-14.56.48:266][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_90C68C3AF4A2A185024DE40B52BF77025.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_9.uasset'
+[2017.10.02-14.56.48:271][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_9.uasset
+[2017.10.02-14.56.48:282][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_10" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_10.uasset" SILENT=true
+[2017.10.02-14.56.48:289][615]LogSavePackage: Save=5.29ms
+[2017.10.02-14.56.48:289][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_10A64D861640D0EDF817A847A836E0C9F9.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_10.uasset'
+[2017.10.02-14.56.48:293][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_10.uasset
+[2017.10.02-14.56.48:304][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_11" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_11.uasset" SILENT=true
+[2017.10.02-14.56.48:311][615]LogSavePackage: Save=5.13ms
+[2017.10.02-14.56.48:311][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_11584CAD734EFE48FB71E358AF864E7B6F.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_11.uasset'
+[2017.10.02-14.56.48:316][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_11.uasset
+[2017.10.02-14.56.48:327][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_12" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_12.uasset" SILENT=true
+[2017.10.02-14.56.48:334][615]LogSavePackage: Save=5.09ms
+[2017.10.02-14.56.48:334][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_12F9CA89F84DC2E1820772FAA09F4C9222.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_12.uasset'
+[2017.10.02-14.56.48:338][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_12.uasset
+[2017.10.02-14.56.48:349][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_13" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_13.uasset" SILENT=true
+[2017.10.02-14.56.48:356][615]LogSavePackage: Save=5.30ms
+[2017.10.02-14.56.48:356][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_13A372DC1241477C9DBF9DD0B03510175B.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_13.uasset'
+[2017.10.02-14.56.48:361][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_13.uasset
+[2017.10.02-14.56.48:372][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_14" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_14.uasset" SILENT=true
+[2017.10.02-14.56.48:379][615]LogSavePackage: Save=5.17ms
+[2017.10.02-14.56.48:379][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_14EAB066DE4D41C88AA0AF59867E183326.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_14.uasset'
+[2017.10.02-14.56.48:384][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_14.uasset
+[2017.10.02-14.56.48:395][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_15" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_15.uasset" SILENT=true
+[2017.10.02-14.56.48:402][615]LogSavePackage: Save=5.17ms
+[2017.10.02-14.56.48:402][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_1519EB85A744B77C1CF030698773A03F56.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_15.uasset'
+[2017.10.02-14.56.48:407][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_15.uasset
+[2017.10.02-14.56.48:417][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_16" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_16.uasset" SILENT=true
+[2017.10.02-14.56.48:436][615]LogSavePackage: Save=5.16ms
+[2017.10.02-14.56.48:436][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_16BD5EA9D747087FFFC1699985D32B022F.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_16.uasset'
+[2017.10.02-14.56.48:441][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_16.uasset
+[2017.10.02-14.56.48:452][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_17" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_17.uasset" SILENT=true
+[2017.10.02-14.56.48:458][615]LogSavePackage: Save=5.12ms
+[2017.10.02-14.56.48:458][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_1777405EE6495E64A40F7A8794C4DFB969.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_17.uasset'
+[2017.10.02-14.56.48:463][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_17.uasset
+[2017.10.02-14.56.48:474][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_18" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_18.uasset" SILENT=true
+[2017.10.02-14.56.48:481][615]LogSavePackage: Save=5.19ms
+[2017.10.02-14.56.48:481][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_1816513FFE4D35ACF67AF4109C713D6AC4.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_18.uasset'
+[2017.10.02-14.56.48:484][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_18.uasset
+[2017.10.02-14.56.48:495][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_19" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_19.uasset" SILENT=true
+[2017.10.02-14.56.48:502][615]LogSavePackage: Save=5.28ms
+[2017.10.02-14.56.48:503][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_199023A3FB4D78BA652B82BDB3D8E5E962.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_19.uasset'
+[2017.10.02-14.56.48:506][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_19.uasset
+[2017.10.02-14.56.48:517][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_20" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_20.uasset" SILENT=true
+[2017.10.02-14.56.48:552][615]LogSavePackage: Save=5.34ms
+[2017.10.02-14.56.48:552][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_20ED47627E4417F4397A588F8A0ABB9D4D.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_20.uasset'
+[2017.10.02-14.56.48:556][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_20.uasset
+[2017.10.02-14.56.48:567][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_21" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_21.uasset" SILENT=true
+[2017.10.02-14.56.48:574][615]LogSavePackage: Save=5.22ms
+[2017.10.02-14.56.48:574][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_21C54C59AA48701E25C45E3C9262905643.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_21.uasset'
+[2017.10.02-14.56.48:578][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_21.uasset
+[2017.10.02-14.56.48:589][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_22" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_22.uasset" SILENT=true
+[2017.10.02-14.56.48:596][615]LogSavePackage: Save=5.19ms
+[2017.10.02-14.56.48:596][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_2245F401484E6B187263478FB16FB14007.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_22.uasset'
+[2017.10.02-14.56.48:600][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_22.uasset
+[2017.10.02-14.56.48:611][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_23" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_23.uasset" SILENT=true
+[2017.10.02-14.56.48:618][615]LogSavePackage: Save=5.26ms
+[2017.10.02-14.56.48:618][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_23188A912F421280F83D4F758E283AFD09.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_23.uasset'
+[2017.10.02-14.56.48:622][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_23.uasset
+[2017.10.02-14.56.48:633][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_24" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_24.uasset" SILENT=true
+[2017.10.02-14.56.48:640][615]LogSavePackage: Save=5.13ms
+[2017.10.02-14.56.48:640][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_2443FB69F94C4E63DE9C8EBAB84348F6C0.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_24.uasset'
+[2017.10.02-14.56.48:643][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_24.uasset
+[2017.10.02-14.56.48:654][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_25" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_25.uasset" SILENT=true
+[2017.10.02-14.56.48:661][615]LogSavePackage: Save=5.20ms
+[2017.10.02-14.56.48:661][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_2598902FDB492BF471933D84A1F7F3A37B.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_25.uasset'
+[2017.10.02-14.56.48:665][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_25.uasset
+[2017.10.02-14.56.48:676][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_26" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_26.uasset" SILENT=true
+[2017.10.02-14.56.48:683][615]LogSavePackage: Save=5.28ms
+[2017.10.02-14.56.48:683][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_2632DF137C493585D5D129659F4AD08680.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_26.uasset'
+[2017.10.02-14.56.48:687][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_26.uasset
+[2017.10.02-14.56.48:698][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_27" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_27.uasset" SILENT=true
+[2017.10.02-14.56.48:705][615]LogSavePackage: Save=5.32ms
+[2017.10.02-14.56.48:705][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_2784F0DE6B4265DD040EE8CE957A512CEE.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_27.uasset'
+[2017.10.02-14.56.48:709][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_27.uasset
+[2017.10.02-14.56.48:720][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_28" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_28.uasset" SILENT=true
+[2017.10.02-14.56.48:795][615]LogSavePackage: Save=40.19ms
+[2017.10.02-14.56.48:795][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_28BCF82FA9420C032A6BD532B70767906E.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_28.uasset'
+[2017.10.02-14.56.48:822][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_28.uasset
+[2017.10.02-14.56.48:832][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_29" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_29.uasset" SILENT=true
+[2017.10.02-14.56.48:839][615]LogSavePackage: Save=5.19ms
+[2017.10.02-14.56.48:839][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_29BFAEDD3B49ED65A86E597E813085DD81.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_29.uasset'
+[2017.10.02-14.56.48:844][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_29.uasset
+[2017.10.02-14.56.48:855][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_30" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_30.uasset" SILENT=true
+[2017.10.02-14.56.48:873][615]LogSavePackage: Save=5.30ms
+[2017.10.02-14.56.48:873][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_306A31243148F7DE183A51D9B87CB82154.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_30.uasset'
+[2017.10.02-14.56.48:878][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_30.uasset
+[2017.10.02-14.56.48:888][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_31" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_31.uasset" SILENT=true
+[2017.10.02-14.56.48:895][615]LogSavePackage: Save=5.17ms
+[2017.10.02-14.56.48:895][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_311DC217C341847683212254A5699F2419.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_31.uasset'
+[2017.10.02-14.56.48:900][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_31.uasset
+[2017.10.02-14.56.48:911][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_32" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_32.uasset" SILENT=true
+[2017.10.02-14.56.48:918][615]LogSavePackage: Save=5.26ms
+[2017.10.02-14.56.48:918][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_32DC8A1F2E4625A8BE98E888BCED9C387F.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_32.uasset'
+[2017.10.02-14.56.48:922][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_32.uasset
+[2017.10.02-14.56.48:933][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_33" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_33.uasset" SILENT=true
+[2017.10.02-14.56.48:940][615]LogSavePackage: Save=5.19ms
+[2017.10.02-14.56.48:940][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_33BDF0578548F4C75A8EDD45BE32F98C74.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_33.uasset'
+[2017.10.02-14.56.48:945][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_33.uasset
+[2017.10.02-14.56.48:956][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_34" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_34.uasset" SILENT=true
+[2017.10.02-14.56.48:963][615]LogSavePackage: Save=5.19ms
+[2017.10.02-14.56.48:963][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_34BED45B8948CC994A4E7B138146B24B60.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_34.uasset'
+[2017.10.02-14.56.48:968][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_34.uasset
+[2017.10.02-14.56.48:979][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_35" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_35.uasset" SILENT=true
+[2017.10.02-14.56.48:986][615]LogSavePackage: Save=5.22ms
+[2017.10.02-14.56.48:986][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_35A84E80C34DB9AA0718F5BDB29B3518EC.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_35.uasset'
+[2017.10.02-14.56.49:059][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_35.uasset
+[2017.10.02-14.56.49:070][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_36" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_36.uasset" SILENT=true
+[2017.10.02-14.56.49:077][615]LogSavePackage: Save=5.50ms
+[2017.10.02-14.56.49:077][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_36C3E35E7744376F8FAE08F4BFB5EEA056.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_36.uasset'
+[2017.10.02-14.56.49:082][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_36.uasset
+[2017.10.02-14.56.49:093][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_37" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_37.uasset" SILENT=true
+[2017.10.02-14.56.49:100][615]LogSavePackage: Save=5.46ms
+[2017.10.02-14.56.49:101][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_37CA3402C647A50E6A2E2CDFA2B80283D5.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_37.uasset'
+[2017.10.02-14.56.49:107][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_37.uasset
+[2017.10.02-14.56.49:120][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_38" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_38.uasset" SILENT=true
+[2017.10.02-14.56.49:129][615]LogSavePackage: Save=5.88ms
+[2017.10.02-14.56.49:129][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_38BBAE2FA04F9F0E2D6DC562AE3AA88742.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_38.uasset'
+[2017.10.02-14.56.49:133][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_38.uasset
+[2017.10.02-14.56.49:144][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/knight_a_Sprite_39" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_39.uasset" SILENT=true
+[2017.10.02-14.56.49:152][615]LogSavePackage: Save=5.67ms
+[2017.10.02-14.56.49:152][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Sprite_39FD318B6640219673B8045FA9009C2630.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_39.uasset'
+[2017.10.02-14.56.49:157][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/knight_a_Sprite_39.uasset
+[2017.10.02-14.56.50:967][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Flipbook/fb_rightknight" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_rightknight.uasset" SILENT=true
+[2017.10.02-14.56.50:986][615]LogSavePackage: Save=2.59ms
+[2017.10.02-14.56.50:986][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_rightknight38FC62214B254853F67F0B9DFE4A6879.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_rightknight.uasset'
+[2017.10.02-14.56.50:987][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_rightknight.uasset
+[2017.10.02-14.56.50:990][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Flipbook/fb_rightknight" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_rightknight.uasset" SILENT=true
+[2017.10.02-14.56.50:994][615]LogSavePackage: Save=1.51ms
+[2017.10.02-14.56.50:994][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_rightknight82CBB0BC44C277465E9813AD9164B592.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_rightknight.uasset'
+[2017.10.02-14.56.50:997][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_rightknight.uasset
+[2017.10.02-14.56.50:999][615]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Flipbook/fb_rightknight" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_rightknight.uasset" SILENT=true
+[2017.10.02-14.56.51:004][615]LogSavePackage: Save=1.64ms
+[2017.10.02-14.56.51:004][615]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_rightknightB89B14864C1D052818AA7FA05027A37B.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_rightknight.uasset'
+[2017.10.02-14.56.51:007][615]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_rightknight.uasset
+[2017.10.02-14.57.11:802][678]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/HauntedMap01' took 0.011
+[2017.10.02-14.57.11:804][678]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Texture/knight_a] ([1] browsable assets)...
+[2017.10.02-14.57.11:814][678]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Texture/knight_a.knight_a]
+[2017.10.02-14.57.11:814][678]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Texture/knight_a]
+[2017.10.02-14.57.11:820][678]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-14.57.11:868][678]LogSavePackage: Save=48.96ms
+[2017.10.02-14.57.11:868][678]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Auto256B6009C429FB652534839883C19FD0A.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/Autosaves/Game/Art/Texture/knight_a_Auto2.uasset'
+[2017.10.02-14.57.11:871][678]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/Autosaves/Game/Art/Texture/knight_a_Auto2.uasset
+[2017.10.02-14.57.11:871][678]LogFileHelpers: Auto-saving content packages took 0.069
+[2017.10.02-15.01.24:002][247]LogEditorFactories: Performing atomic reimport of [C:/Users/gmr2/Pictures/Texture/knight_a.png]
+[2017.10.02-15.01.24:003][247]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/gmr2/Pictures/Texture/knight_a.png)
+[2017.10.02-15.01.24:009][247]LogTexture: Display: Building textures: knight_a (BGRA8, 256X256)
+[2017.10.02-15.01.24:015][247]LogEditorFactories: -- imported successfully
+[2017.10.02-15.01.43:006][775]LogSavePackage: Save=4.28ms
+[2017.10.02-15.01.43:006][775]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopRighWalkKnight80EFC4994378DF53F446629F4D678C8C.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/fb_TopRighWalkKnight.uasset'
+[2017.10.02-15.01.43:012][775]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/fb_TopRighWalkKnight.uasset
+[2017.10.02-15.02.09:398][385]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Flipbook/fb_TopRighWalkKnight" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_TopRighWalkKnight.uasset" SILENT=true
+[2017.10.02-15.02.09:405][385]LogSavePackage: Save=4.30ms
+[2017.10.02-15.02.09:405][385]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopRighWalkKnightF9CEE4124C0E39378E40B3BD665EF858.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_TopRighWalkKnight.uasset'
+[2017.10.02-15.02.09:409][385]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_TopRighWalkKnight.uasset
+[2017.10.02-15.06.04:231][478]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Flipbook/fb_RightAttackKnight" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_RightAttackKnight.uasset" SILENT=true
+[2017.10.02-15.06.04:403][478]LogSavePackage: Save=6.14ms
+[2017.10.02-15.06.04:403][478]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_RightAttackKnight046FED0249D85BDD1741468C9D98DA1D.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_RightAttackKnight.uasset'
+[2017.10.02-15.06.04:408][478]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_RightAttackKnight.uasset
+[2017.10.02-15.07.11:969][510]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Flipbook/fb_RightAttackKnight" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_RightAttackKnight.uasset" SILENT=true
+[2017.10.02-15.07.11:978][510]LogSavePackage: Save=4.23ms
+[2017.10.02-15.07.11:978][510]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_RightAttackKnightCB527E7E40B133C3E85808A7F07183B5.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_RightAttackKnight.uasset'
+[2017.10.02-15.07.11:981][510]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_RightAttackKnight.uasset
+[2017.10.02-15.07.48:180][936]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Flipbook/fb_RightWalkKnight" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_RightWalkKnight.uasset" SILENT=true
+[2017.10.02-15.07.48:186][936]LogSavePackage: Save=4.27ms
+[2017.10.02-15.07.48:186][936]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_RightWalkKnightD153E97B44A3BC5E27381B84C2236C5E.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_RightWalkKnight.uasset'
+[2017.10.02-15.07.48:208][936]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_RightWalkKnight.uasset
+[2017.10.02-15.09.10:593][634]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Sprites/Knight/fb_TopWalkKnight" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/fb_TopWalkKnight.uasset" SILENT=true
+[2017.10.02-15.09.10:601][634]LogSavePackage: Save=5.03ms
+[2017.10.02-15.09.10:601][634]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopWalkKnight741C5552482F94B8F56CA79F357ADC41.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/fb_TopWalkKnight.uasset'
+[2017.10.02-15.09.10:630][634]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Sprites/Knight/fb_TopWalkKnight.uasset
+[2017.10.02-15.09.41:187][890]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/HauntedMap01' took 0.012
+[2017.10.02-15.09.41:190][890]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Texture/knight_a] ([1] browsable assets)...
+[2017.10.02-15.09.41:199][890]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/Art/Texture/knight_a.knight_a]
+[2017.10.02-15.09.41:199][890]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Texture/knight_a]
+[2017.10.02-15.09.41:204][890]LogTexture: Display: Building textures: knight_a (AutoDXT, 256X256)
+[2017.10.02-15.09.41:252][890]LogSavePackage: Save=48.80ms
+[2017.10.02-15.09.41:252][890]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/knight_a_Auto370CC59684BAEAA9A9BFC419E9A2374CC.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/Autosaves/Game/Art/Texture/knight_a_Auto3.uasset'
+[2017.10.02-15.09.41:275][890]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/Autosaves/Game/Art/Texture/knight_a_Auto3.uasset
+[2017.10.02-15.09.41:276][890]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Sprites/Knight/fb_TopLeftWalkKnight] ([1] browsable assets)...
+[2017.10.02-15.09.41:286][890]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/Art/Sprites/Knight/fb_TopLeftWalkKnight.fb_TopLeftWalkKnight]
+[2017.10.02-15.09.41:286][890]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Sprites/Knight/fb_TopLeftWalkKnight]
+[2017.10.02-15.09.41:292][890]LogSavePackage: Save=4.04ms
+[2017.10.02-15.09.41:292][890]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopLeftWalkKnight_Auto3796FBD8843FD0BCEEB12C48752A2AF94.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/Autosaves/Game/Art/Sprites/Knight/fb_TopLeftWalkKnight_Auto3.uasset'
+[2017.10.02-15.09.41:293][890]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/Autosaves/Game/Art/Sprites/Knight/fb_TopLeftWalkKnight_Auto3.uasset
+[2017.10.02-15.09.41:293][890]LogFileHelpers: Auto-saving content packages took 0.105
+[2017.10.02-15.12.40:076][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Flipbook/fb_BotLeftWalkKnight" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_BotLeftWalkKnight.uasset" SILENT=true
+[2017.10.02-15.12.40:082][511]LogSavePackage: Save=4.28ms
+[2017.10.02-15.12.40:082][511]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotLeftWalkKnight86ACB8FD4BB8FD95158EF2B6FBCB7834.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_BotLeftWalkKnight.uasset'
+[2017.10.02-15.12.40:099][511]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_BotLeftWalkKnight.uasset
+[2017.10.02-15.12.40:110][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Flipbook/fb_BotRightWalkKnight" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_BotRightWalkKnight.uasset" SILENT=true
+[2017.10.02-15.12.40:116][511]LogSavePackage: Save=4.17ms
+[2017.10.02-15.12.40:116][511]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotRightWalkKnightF87D783B4EB279CB7E48268338DEB2F2.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_BotRightWalkKnight.uasset'
+[2017.10.02-15.12.40:120][511]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_BotRightWalkKnight.uasset
+[2017.10.02-15.12.40:132][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Flipbook/fb_BotWalkKnight" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_BotWalkKnight.uasset" SILENT=true
+[2017.10.02-15.12.40:137][511]LogSavePackage: Save=4.21ms
+[2017.10.02-15.12.40:138][511]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotWalkKnightCE1BE7204F727B24A46CF89FB681B1C7.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_BotWalkKnight.uasset'
+[2017.10.02-15.12.40:141][511]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_BotWalkKnight.uasset
+[2017.10.02-15.12.40:153][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Flipbook/fb_LeftWalkKnight" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_LeftWalkKnight.uasset" SILENT=true
+[2017.10.02-15.12.40:158][511]LogSavePackage: Save=4.12ms
+[2017.10.02-15.12.40:159][511]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_LeftWalkKnightEF182A894563BE4784D2D99574062DE0.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_LeftWalkKnight.uasset'
+[2017.10.02-15.12.40:162][511]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_LeftWalkKnight.uasset
+[2017.10.02-15.12.40:174][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Flipbook/fb_TopLeftWalkKnight" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_TopLeftWalkKnight.uasset" SILENT=true
+[2017.10.02-15.12.40:180][511]LogSavePackage: Save=4.19ms
+[2017.10.02-15.12.40:180][511]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopLeftWalkKnight2AFD01DB44CACE448A5AEBB263995FC1.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_TopLeftWalkKnight.uasset'
+[2017.10.02-15.12.40:184][511]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_TopLeftWalkKnight.uasset
+[2017.10.02-15.12.40:195][511]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Flipbook/fb_TopWalkKnight" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_TopWalkKnight.uasset" SILENT=true
+[2017.10.02-15.12.40:201][511]LogSavePackage: Save=4.10ms
+[2017.10.02-15.12.40:201][511]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopWalkKnight0EED093748549732A4DBFAA76AD16982.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_TopWalkKnight.uasset'
+[2017.10.02-15.12.40:205][511]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_TopWalkKnight.uasset
+[2017.10.02-15.15.58:689][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Flipbook/fb_TopRightAttackKnight" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_TopRightAttackKnight.uasset" SILENT=true
+[2017.10.02-15.15.58:695][792]LogSavePackage: Save=4.49ms
+[2017.10.02-15.15.58:695][792]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopRightAttackKnightDB105990408560636ED95ABEFB33206B.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_TopRightAttackKnight.uasset'
+[2017.10.02-15.15.58:712][792]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_TopRightAttackKnight.uasset
+[2017.10.02-15.15.58:723][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Flipbook/fb_BotAttackKnight" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_BotAttackKnight.uasset" SILENT=true
+[2017.10.02-15.15.58:729][792]LogSavePackage: Save=4.28ms
+[2017.10.02-15.15.58:729][792]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotAttackKnight8DB8719444EAC2440AEBC9B14F1E2612.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_BotAttackKnight.uasset'
+[2017.10.02-15.15.58:734][792]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_BotAttackKnight.uasset
+[2017.10.02-15.15.58:744][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Flipbook/fb_BotLeftAttackKnight" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_BotLeftAttackKnight.uasset" SILENT=true
+[2017.10.02-15.15.58:750][792]LogSavePackage: Save=4.14ms
+[2017.10.02-15.15.58:750][792]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotLeftAttackKnight7EECD4664C3EB04548E969B10CC438A4.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_BotLeftAttackKnight.uasset'
+[2017.10.02-15.15.58:754][792]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_BotLeftAttackKnight.uasset
+[2017.10.02-15.15.58:765][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Flipbook/fb_BotRightAttackKinght" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_BotRightAttackKinght.uasset" SILENT=true
+[2017.10.02-15.15.58:771][792]LogSavePackage: Save=4.15ms
+[2017.10.02-15.15.58:771][792]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotRightAttackKinght15E825964E4B28852B407C842FF814D0.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_BotRightAttackKinght.uasset'
+[2017.10.02-15.15.58:775][792]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_BotRightAttackKinght.uasset
+[2017.10.02-15.15.58:786][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Flipbook/fb_LeftAttackKnight" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_LeftAttackKnight.uasset" SILENT=true
+[2017.10.02-15.15.58:792][792]LogSavePackage: Save=4.20ms
+[2017.10.02-15.15.58:792][792]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_LeftAttackKnight61911A984D9D71EEA79D9C8CE6E3CF4F.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_LeftAttackKnight.uasset'
+[2017.10.02-15.15.58:796][792]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_LeftAttackKnight.uasset
+[2017.10.02-15.15.58:807][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Flipbook/fb_TopAttackKnight" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_TopAttackKnight.uasset" SILENT=true
+[2017.10.02-15.15.58:813][792]LogSavePackage: Save=4.18ms
+[2017.10.02-15.15.58:813][792]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopAttackKnightF07434F4428265893BAE469427F59C6B.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_TopAttackKnight.uasset'
+[2017.10.02-15.15.58:818][792]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_TopAttackKnight.uasset
+[2017.10.02-15.15.58:829][792]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/Flipbook/fb_TopLeftAttackKnight" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_TopLeftAttackKnight.uasset" SILENT=true
+[2017.10.02-15.15.58:835][792]LogSavePackage: Save=4.26ms
+[2017.10.02-15.15.58:835][792]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopLeftAttackKnight975E1368435C654BA08908AEA3DDC896.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_TopLeftAttackKnight.uasset'
+[2017.10.02-15.15.58:839][792]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/fb_TopLeftAttackKnight.uasset
+[2017.10.02-15.16.36:577][890]LogSavePackage: Save=4.44ms
+[2017.10.02-15.16.36:577][890]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotAttackKnightC0894CB34F10AA70FC87439D5030EDB4.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotAttackKnight.uasset'
+[2017.10.02-15.16.36:593][890]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotAttackKnight.uasset
+[2017.10.02-15.16.36:614][890]LogSavePackage: Save=4.22ms
+[2017.10.02-15.16.36:615][890]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotLeftAttackKnight0ED3D4F342FBFCF41D8854B01894F687.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotLeftAttackKnight.uasset'
+[2017.10.02-15.16.36:619][890]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotLeftAttackKnight.uasset
+[2017.10.02-15.16.36:657][890]LogSavePackage: Save=4.39ms
+[2017.10.02-15.16.36:657][890]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotRightAttackKinght7A98E5204D6E129EB92981AD222B0BF6.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotRightAttackKinght.uasset'
+[2017.10.02-15.16.36:661][890]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotRightAttackKinght.uasset
+[2017.10.02-15.16.36:680][890]LogSavePackage: Save=4.57ms
+[2017.10.02-15.16.36:680][890]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_LeftAttackKnight068E11BD41DC1EBC53764DBB9DE59FD5.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_LeftAttackKnight.uasset'
+[2017.10.02-15.16.36:684][890]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_LeftAttackKnight.uasset
+[2017.10.02-15.16.36:701][890]LogSavePackage: Save=4.24ms
+[2017.10.02-15.16.36:701][890]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_RightAttackKnight6FD13FC442C23C2ED0BDB7A25936CB6C.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_RightAttackKnight.uasset'
+[2017.10.02-15.16.36:706][890]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_RightAttackKnight.uasset
+[2017.10.02-15.16.36:727][890]LogSavePackage: Save=4.23ms
+[2017.10.02-15.16.36:727][890]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopAttackKnight248DB88042ED28026A2CBF8DD7DF7079.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopAttackKnight.uasset'
+[2017.10.02-15.16.36:731][890]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopAttackKnight.uasset
+[2017.10.02-15.16.36:748][890]LogSavePackage: Save=4.29ms
+[2017.10.02-15.16.36:748][890]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopLeftAttackKnight8AF7F06946817FB468DB518A8D0484F2.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopLeftAttackKnight.uasset'
+[2017.10.02-15.16.36:753][890]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopLeftAttackKnight.uasset
+[2017.10.02-15.16.36:770][890]LogSavePackage: Save=4.33ms
+[2017.10.02-15.16.36:770][890]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopRightAttackKnight7983BEFA4785DC34109955990A9A6353.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopRightAttackKnight.uasset'
+[2017.10.02-15.16.36:774][890]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopRightAttackKnight.uasset
+[2017.10.02-15.16.49:726][619]LogSavePackage: Save=4.63ms
+[2017.10.02-15.16.49:726][619]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotLeftWalkKnightC20A9107459361FFD927778D4057390A.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_BotLeftWalkKnight.uasset'
+[2017.10.02-15.16.49:731][619]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_BotLeftWalkKnight.uasset
+[2017.10.02-15.16.49:749][619]LogSavePackage: Save=4.41ms
+[2017.10.02-15.16.49:749][619]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotRightWalkKnightDA0E58D94512CE8D1D51AFB6BD48D652.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_BotRightWalkKnight.uasset'
+[2017.10.02-15.16.49:753][619]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_BotRightWalkKnight.uasset
+[2017.10.02-15.16.49:800][619]LogSavePackage: Save=4.62ms
+[2017.10.02-15.16.49:801][619]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotWalkKnight82B89D2443C3E7CCDC5915BB7F314DB0.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_BotWalkKnight.uasset'
+[2017.10.02-15.16.49:804][619]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_BotWalkKnight.uasset
+[2017.10.02-15.16.49:823][619]LogSavePackage: Save=4.56ms
+[2017.10.02-15.16.49:823][619]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_LeftWalkKnight35CEF24D43676AFF95A160B3E8BB0C91.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_LeftWalkKnight.uasset'
+[2017.10.02-15.16.49:826][619]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_LeftWalkKnight.uasset
+[2017.10.02-15.16.49:845][619]LogSavePackage: Save=4.47ms
+[2017.10.02-15.16.49:845][619]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_RightWalkKnightF21217084B00D6D025493E9D0F692A58.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_RightWalkKnight.uasset'
+[2017.10.02-15.16.49:849][619]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_RightWalkKnight.uasset
+[2017.10.02-15.16.49:867][619]LogSavePackage: Save=4.31ms
+[2017.10.02-15.16.49:867][619]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopLeftWalkKnightC86F9A8640708D77F8C94095F1C7E968.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_TopLeftWalkKnight.uasset'
+[2017.10.02-15.16.49:871][619]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_TopLeftWalkKnight.uasset
+[2017.10.02-15.16.49:888][619]LogSavePackage: Save=4.32ms
+[2017.10.02-15.16.49:889][619]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopRighWalkKnight23D3D83A454224660751B18C10A1AC52.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_TopRighWalkKnight.uasset'
+[2017.10.02-15.16.49:892][619]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_TopRighWalkKnight.uasset
+[2017.10.02-15.16.49:909][619]LogSavePackage: Save=4.19ms
+[2017.10.02-15.16.49:909][619]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopWalkKnight653FC69E4ECEF869F970819055A25DE2.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_TopWalkKnight.uasset'
+[2017.10.02-15.16.49:913][619]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_TopWalkKnight.uasset
+[2017.10.02-15.17.09:840][  9]LogSavePackage: Save=4.60ms
+[2017.10.02-15.17.09:840][  9]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopRightAttackKnight67F8524148B3D8B17074EEB74B750547.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopRightAttackKnight.uasset'
+[2017.10.02-15.17.09:844][  9]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopRightAttackKnight.uasset
+[2017.10.02-15.17.20:143][747]LogSavePackage: Save=4.09ms
+[2017.10.02-15.17.20:143][747]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopLeftAttackKnightE4711EC840D754BD5CECD692E7EB45F9.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopLeftAttackKnight.uasset'
+[2017.10.02-15.17.20:147][747]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopLeftAttackKnight.uasset
+[2017.10.02-15.17.23:525][994]LogSavePackage: Save=4.09ms
+[2017.10.02-15.17.23:525][994]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopAttackKnight0F23E8D841A46DE2979069B7A6BBE122.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopAttackKnight.uasset'
+[2017.10.02-15.17.23:529][994]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopAttackKnight.uasset
+[2017.10.02-15.17.26:530][173]LogSavePackage: Save=1.58ms
+[2017.10.02-15.17.26:530][173]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_RightAttackKnight48485A8049626575CDD8519625B9019A.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_RightAttackKnight.uasset'
+[2017.10.02-15.17.26:532][173]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_RightAttackKnight.uasset
+[2017.10.02-15.17.30:283][405]LogSavePackage: Save=4.02ms
+[2017.10.02-15.17.30:283][405]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_LeftAttackKnight511589854D22EE869AE3349917EBE23B.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_LeftAttackKnight.uasset'
+[2017.10.02-15.17.30:286][405]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_LeftAttackKnight.uasset
+[2017.10.02-15.17.33:228][612]LogSavePackage: Save=4.05ms
+[2017.10.02-15.17.33:228][612]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotRightAttackKinght2CFFCE3C40AC98EFCFDC2AB4C366662D.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotRightAttackKinght.uasset'
+[2017.10.02-15.17.33:231][612]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotRightAttackKinght.uasset
+[2017.10.02-15.17.37:817][910]LogSavePackage: Save=4.09ms
+[2017.10.02-15.17.37:817][910]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotLeftAttackKnightD273B6E44BFE20A33E9DFB825707385B.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotLeftAttackKnight.uasset'
+[2017.10.02-15.17.37:821][910]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotLeftAttackKnight.uasset
+[2017.10.02-15.17.59:617][455]LogSavePackage: Save=4.09ms
+[2017.10.02-15.17.59:617][455]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotAttackKnightF0F312B64242E8606CFD35B3BC1AACF1.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotAttackKnight.uasset'
+[2017.10.02-15.17.59:620][455]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotAttackKnight.uasset
+[2017.10.02-15.18.48:694][407]LogSavePackage: Save=4.11ms
+[2017.10.02-15.18.48:694][407]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopLeftAttackKnight9E9228B4429EE2C12E55F9980CB78C7B.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopLeftAttackKnight.uasset'
+[2017.10.02-15.18.48:698][407]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopLeftAttackKnight.uasset
+[2017.10.02-15.18.54:582][789]LogSavePackage: Save=4.09ms
+[2017.10.02-15.18.54:582][789]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopAttackKnight39573E6D417B1DB53915569D11EFC814.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopAttackKnight.uasset'
+[2017.10.02-15.18.54:586][789]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopAttackKnight.uasset
+[2017.10.02-15.18.58:599][ 71]LogSavePackage: Save=4.03ms
+[2017.10.02-15.18.58:599][ 71]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_RightAttackKnightA6D187D844066DCC3F252AB87E57A11E.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_RightAttackKnight.uasset'
+[2017.10.02-15.18.58:603][ 71]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_RightAttackKnight.uasset
+[2017.10.02-15.19.02:726][386]LogSavePackage: Save=3.97ms
+[2017.10.02-15.19.02:726][386]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_LeftAttackKnightD1A8775E4DE23B70A9575D87F8AFFABC.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_LeftAttackKnight.uasset'
+[2017.10.02-15.19.02:730][386]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_LeftAttackKnight.uasset
+[2017.10.02-15.19.06:940][666]LogSavePackage: Save=3.94ms
+[2017.10.02-15.19.06:940][666]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotRightAttackKinghtC8856D95465DAF8ADE4989A02D209238.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotRightAttackKinght.uasset'
+[2017.10.02-15.19.06:944][666]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotRightAttackKinght.uasset
+[2017.10.02-15.19.10:296][874]LogSavePackage: Save=3.98ms
+[2017.10.02-15.19.10:296][874]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotLeftAttackKnightC67A9B924659D537C86E42812DEC26F9.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotLeftAttackKnight.uasset'
+[2017.10.02-15.19.10:299][874]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotLeftAttackKnight.uasset
+[2017.10.02-15.19.48:279][376]LogSavePackage: Save=4.10ms
+[2017.10.02-15.19.48:279][376]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopWalkKnightE75313E44C4BBB3B82E5D3B7C6ADCBF1.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_TopWalkKnight.uasset'
+[2017.10.02-15.19.48:282][376]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_TopWalkKnight.uasset
+[2017.10.02-15.19.54:524][751]LogSavePackage: Save=4.08ms
+[2017.10.02-15.19.54:524][751]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopRighWalkKnightF63D4F4B4E75935F8050F18FCF645C70.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_TopRighWalkKnight.uasset'
+[2017.10.02-15.19.54:527][751]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_TopRighWalkKnight.uasset
+[2017.10.02-15.19.59:168][ 88]LogSavePackage: Save=3.98ms
+[2017.10.02-15.19.59:168][ 88]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopLeftWalkKnight68683EC64521DA98DDC9BDB3897AA070.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_TopLeftWalkKnight.uasset'
+[2017.10.02-15.19.59:172][ 88]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_TopLeftWalkKnight.uasset
+[2017.10.02-15.20.03:665][365]LogSavePackage: Save=4.43ms
+[2017.10.02-15.20.03:665][365]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_RightWalkKnightA4001F2143EAD23D1330508279EF7FB3.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_RightWalkKnight.uasset'
+[2017.10.02-15.20.03:669][365]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_RightWalkKnight.uasset
+[2017.10.02-15.20.07:456][600]LogSavePackage: Save=3.99ms
+[2017.10.02-15.20.07:457][600]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_LeftWalkKnight80702DC2492FA035E145B083B8FCD574.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_LeftWalkKnight.uasset'
+[2017.10.02-15.20.07:460][600]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_LeftWalkKnight.uasset
+[2017.10.02-15.20.12:806][929]LogSavePackage: Save=4.08ms
+[2017.10.02-15.20.12:806][929]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotWalkKnight416B48B04CB86D0AA6522680D7822884.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_BotWalkKnight.uasset'
+[2017.10.02-15.20.12:810][929]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_BotWalkKnight.uasset
+[2017.10.02-15.20.19:166][324]LogSavePackage: Save=4.03ms
+[2017.10.02-15.20.19:166][324]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotRightWalkKnight9338C52E4071061DF36DBC8589685800.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_BotRightWalkKnight.uasset'
+[2017.10.02-15.20.19:169][324]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_BotRightWalkKnight.uasset
+[2017.10.02-15.20.22:755][592]LogSavePackage: Save=4.30ms
+[2017.10.02-15.20.22:756][592]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotLeftWalkKnight04C60FD742D5B0C194AF41AD536CE731.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_BotLeftWalkKnight.uasset'
+[2017.10.02-15.20.22:759][592]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_BotLeftWalkKnight.uasset
+[2017.10.02-15.20.59:783][810]LogSavePackage: Save=1.64ms
+[2017.10.02-15.20.59:783][810]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotLeftWalkKnight92E342154BD6BC006C8FA995720E512C.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_BotLeftWalkKnight.uasset'
+[2017.10.02-15.20.59:785][810]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Walk/fb_BotLeftWalkKnight.uasset
+[2017.10.02-15.21.17:923][923]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/HauntedMap01" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Level/HauntedMap01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.02-15.21.17:964][923]LogSavePackage: Save=5.77ms
+[2017.10.02-15.21.17:964][923]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/HauntedMap0162D9EA3A4785AAEC229511A9C77B5AA2.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Level/HauntedMap01.umap'
+[2017.10.02-15.21.17:965][923]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Level/HauntedMap01.umap
+[2017.10.02-15.21.20:078][160]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/HauntedMap01" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Level/HauntedMap01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.02-15.21.20:097][160]LogSavePackage: Save=5.41ms
+[2017.10.02-15.21.20:097][160]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/HauntedMap01E9AD3F42491BBB97C729338C54EB7112.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Level/HauntedMap01.umap'
+[2017.10.02-15.21.20:099][160]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Level/HauntedMap01.umap
+[2017.10.02-15.22.33:505][ 27]Cmd: TRANSACTION UNDO
+[2017.10.02-15.22.33:505][ 27]LogEditorTransaction: Undo Tile Erasing
+[2017.10.02-15.23.38:880][115]Cmd: TRANSACTION UNDO
+[2017.10.02-15.23.38:880][115]LogEditorTransaction: Undo Delete Layer
+[2017.10.02-15.23.39:504][145]Cmd: TRANSACTION UNDO
+[2017.10.02-15.23.39:504][145]LogEditorTransaction: Undo Tile Paint Bucket
+[2017.10.02-15.23.40:086][180]Cmd: TRANSACTION UNDO
+[2017.10.02-15.23.40:086][180]LogEditorTransaction: Undo Tile Paint Bucket
+[2017.10.02-15.23.41:462][272]Cmd: TRANSACTION REDO
+[2017.10.02-15.23.41:462][272]LogEditorTransaction: Redo Tile Paint Bucket
+[2017.10.02-15.23.41:677][284]Cmd: TRANSACTION REDO
+[2017.10.02-15.23.41:677][284]LogEditorTransaction: Redo Tile Paint Bucket
+[2017.10.02-15.23.50:396][946]Cmd: TRANSACTION UNDO
+[2017.10.02-15.23.50:396][946]LogEditorTransaction: Undo Tile Painting
+[2017.10.02-15.23.50:753][964]Cmd: TRANSACTION UNDO
+[2017.10.02-15.23.50:753][964]LogEditorTransaction: Undo Tile Painting
+[2017.10.02-15.23.50:952][972]Cmd: TRANSACTION UNDO
+[2017.10.02-15.23.50:952][972]LogEditorTransaction: Undo Tile Painting
+[2017.10.02-15.23.51:190][985]Cmd: TRANSACTION UNDO
+[2017.10.02-15.23.51:190][985]LogEditorTransaction: Undo Tile Painting
+[2017.10.02-15.23.51:461][999]Cmd: TRANSACTION UNDO
+[2017.10.02-15.23.51:461][999]LogEditorTransaction: Undo Tile Painting
+[2017.10.02-15.24.45:897][242]Cmd: TRANSACTION UNDO
+[2017.10.02-15.24.45:897][242]LogEditorTransaction: Undo Tile Painting
+[2017.10.02-15.25.02:847][534]Cmd: TRANSACTION UNDO
+[2017.10.02-15.25.02:847][534]LogEditorTransaction: Undo Tile Painting
+[2017.10.02-15.26.24:888][246]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/TileMap/tm_world01" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/TileMap/tm_world01.uasset" SILENT=true
+[2017.10.02-15.26.24:968][246]LogSavePackage: Save=74.18ms
+[2017.10.02-15.26.24:968][246]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/tm_world01EEA55BD2428A5A95C112839352AF0AD5.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/TileMap/tm_world01.uasset'
+[2017.10.02-15.26.24:974][246]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/TileMap/tm_world01.uasset
+[2017.10.02-15.26.26:545][373]Cmd: SELECT NONE
+[2017.10.02-15.26.28:911][539]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/TileMap/tm_world01" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/TileMap/tm_world01.uasset" SILENT=true
+[2017.10.02-15.26.28:989][539]LogSavePackage: Save=72.51ms
+[2017.10.02-15.26.28:989][539]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/tm_world01A7965DC04330D4930FEDAE88CE322F7B.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/TileMap/tm_world01.uasset'
+[2017.10.02-15.26.28:991][539]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/TileMap/tm_world01.uasset
+[2017.10.02-15.26.40:802][467]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Art/TileMap/tm_world01" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/TileMap/tm_world01.uasset" SILENT=true
+[2017.10.02-15.26.40:879][467]LogSavePackage: Save=72.58ms
+[2017.10.02-15.26.40:879][467]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/tm_world01B3AED83F461811672E02AC9B0317389C.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/TileMap/tm_world01.uasset'
+[2017.10.02-15.26.40:888][467]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/TileMap/tm_world01.uasset
+[2017.10.02-15.29.24:300][310]LogEditorViewport: Clicking Background
+[2017.10.02-15.29.25:293][415]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/HauntedMap01" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Level/HauntedMap01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.02-15.29.25:318][415]LogSavePackage: Save=5.78ms
+[2017.10.02-15.29.25:319][415]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/HauntedMap014CCFDA194D4E3006A39B2F90EA7173BC.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Level/HauntedMap01.umap'
+[2017.10.02-15.29.25:321][415]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Level/HauntedMap01.umap
+[2017.10.02-15.29.25:664][445]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/HauntedMap01" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Level/HauntedMap01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.02-15.29.25:687][445]LogSavePackage: Save=5.44ms
+[2017.10.02-15.29.25:687][445]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/HauntedMap016766CAB44967B87B84CE7DB8B6AFEBFF.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Level/HauntedMap01.umap'
+[2017.10.02-15.29.25:689][445]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Level/HauntedMap01.umap
+[2017.10.02-15.39.26:092][386]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/HauntedMap01' took 0.012
+[2017.10.02-15.39.26:095][386]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Flipbook/Kight_Attack/fb_TopRightAttackKnight] ([1] browsable assets)...
+[2017.10.02-15.39.26:105][386]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/Art/Flipbook/Kight_Attack/fb_TopRightAttackKnight.fb_TopRightAttackKnight]
+[2017.10.02-15.39.26:105][386]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Flipbook/Kight_Attack/fb_TopRightAttackKnight]
+[2017.10.02-15.39.26:116][386]LogSavePackage: Save=4.61ms
+[2017.10.02-15.39.26:116][386]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopRightAttackKnight_Auto4C042033D49658B113B5D6D9DFF0E0809.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/Autosaves/Game/Art/Flipbook/Kight_Attack/fb_TopRightAttackKnight_Auto4.uasset'
+[2017.10.02-15.39.26:130][386]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/Autosaves/Game/Art/Flipbook/Kight_Attack/fb_TopRightAttackKnight_Auto4.uasset
+[2017.10.02-15.39.26:131][386]LogFileHelpers: Auto-saving content packages took 0.038
