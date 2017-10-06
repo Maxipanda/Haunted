@@ -1,4 +1,4 @@
-﻿Log file open, 10/04/17 13:44:15
+﻿Log file open, 10/06/17 10:48:32
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -7,9 +7,9 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Haunted02
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(663559779) SRandInit(663559779).
+LogInit: Display: RandInit(552069113) SRandInit(552069114).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.217962
+LogStats: Stats thread started at 0.195958
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -105,20 +105,758 @@ LogInit: Compiled (64-bit): Sep 22 2017 13:47:16
 LogInit: Compiled with Visual C++: 19.00.24215.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++UE4+Release-4.17
-LogInit: Command line:  /Temp/Autosaves/Game/Level/UEDPCHauntedMap01 -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess -messaging -SessionName="Play in Standalone Game" -windowed 
+LogInit: Command line:  
 LogInit: Base directory: D:/nosave/Guillaume/Games/Epic Games/UE_4.17/Engine/Binaries/Win64/
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.10.04-11.44.16:399][  0]LogInit: Selected Device Profile: [Windows]
-[2017.10.04-11.44.16:399][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.10.04-11.44.16:412][  0]LogInit: Computer: LENOV146DSY
-[2017.10.04-11.44.16:412][  0]LogInit: User: gmr2
-[2017.10.04-11.44.16:412][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.10.04-11.44.16:412][  0]LogInit: High frequency timer resolution =3.507246 MHz
-[2017.10.04-11.44.16:412][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
-[2017.10.04-11.44.16:412][  0]LogMemory: Platform Memory Stats for Windows
-[2017.10.04-11.44.16:413][  0]LogMemory: Process Physical Memory: 279.93 MB used, 279.93 MB peak
-[2017.10.04-11.44.16:413][  0]LogMemory: Process Virtual Memory: 285.21 MB used, 285.21 MB peak
-[2017.10.04-11.44.16:413][  0]LogMemory: Physical Memory: 7448.63 MB used,  25270.54 MB free, 32719.17 MB total
-[2017.10.04-11.44.16:413][  0]LogMemory: Virtual Memory: 661.84 MB used,  25270.54 MB free, 8388608.00 MB total
+[2017.10.06-08.48.32:996][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.06-08.48.32:996][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.06-08.48.33:017][  0]LogInit: Computer: LENOV146DSY
+[2017.10.06-08.48.33:017][  0]LogInit: User: GMR2
+[2017.10.06-08.48.33:017][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.06-08.48.33:017][  0]LogInit: High frequency timer resolution =3.507216 MHz
+[2017.10.06-08.48.33:017][  0]LogMemory: Memory total: Physical=32.0GB (32GB approx)
+[2017.10.06-08.48.33:018][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.06-08.48.33:018][  0]LogMemory: Process Physical Memory: 279.29 MB used, 279.29 MB peak
+[2017.10.06-08.48.33:018][  0]LogMemory: Process Virtual Memory: 277.57 MB used, 277.57 MB peak
+[2017.10.06-08.48.33:018][  0]LogMemory: Physical Memory: 7614.86 MB used,  25104.31 MB free, 32719.17 MB total
+[2017.10.06-08.48.33:018][  0]LogMemory: Virtual Memory: 653.83 MB used,  25104.31 MB free, 8388608.00 MB total
+[2017.10.06-08.48.33:335][  0]LogInit: Using OS detected language (en-US).
+[2017.10.06-08.48.33:335][  0]LogInit: Using OS detected locale (en-US).
+[2017.10.06-08.48.33:342][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.06-08.48.34:295][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.06-08.48.34:335][  0]LogD3D11RHI:    0. 'NVIDIA Quadro M6000' (Feature Level 11_0)
+[2017.10.06-08.48.34:335][  0]LogD3D11RHI:       12176/0/16103 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.10.06-08.48.34:335][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.06-08.48.34:341][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.06-08.48.34:342][  0]LogD3D11RHI:     GPU DeviceId: 0x17f0 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.06-08.48.34:342][  0]LogWindows: EnumDisplayDevices:
+[2017.10.06-08.48.34:342][  0]LogWindows:    0. 'NVIDIA Quadro M6000' (P:1 D:1)
+[2017.10.06-08.48.34:342][  0]LogWindows:    1. 'NVIDIA Quadro M6000' (P:0 D:1)
+[2017.10.06-08.48.34:342][  0]LogWindows:    2. 'NVIDIA Quadro M6000' (P:0 D:0)
+[2017.10.06-08.48.34:343][  0]LogWindows:    3. 'NVIDIA Quadro M6000' (P:0 D:0)
+[2017.10.06-08.48.34:343][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2017.10.06-08.48.34:343][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2017.10.06-08.48.34:343][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2017.10.06-08.48.34:343][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.10.06-08.48.34:343][  0]LogD3D11RHI:     Adapter Name: NVIDIA Quadro M6000
+[2017.10.06-08.48.34:343][  0]LogD3D11RHI:   Driver Version: 381.65 (internal:22.21.13.8165, unified:381.65)
+[2017.10.06-08.48.34:343][  0]LogD3D11RHI:      Driver Date: 3-31-2017
+[2017.10.06-08.48.34:343][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.06-08.48.34:370][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.06-08.48.34:386][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.10.06-08.48.34:469][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Intermediate/Shaders/WorkingDirectory/35612/).
+[2017.10.06-08.48.34:470][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/gmr2/AppData/Local/Temp/UnrealShaderWorkingDir/38E79B38467F0C0B5BB8A5AD40290566/'.
+[2017.10.06-08.48.34:470][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.06-08.48.35:868][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.06-08.48.35:935][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.06-08.48.36:004][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.06-08.48.36:069][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.06-08.48.36:138][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.06-08.48.36:203][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.06-08.48.36:269][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.06-08.48.36:335][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.06-08.48.36:393][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.06-08.48.36:459][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.06-08.48.36:524][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.06-08.48.36:589][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.06-08.48.36:654][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.06-08.48.36:719][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.06-08.48.36:782][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.06-08.48.36:911][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.06-08.48.36:911][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.06-08.48.36:963][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.06-08.48.37:086][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.06-08.48.37:112][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.06-08.48.37:176][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.06-08.48.37:243][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.06-08.48.37:308][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.06-08.48.37:375][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.06-08.48.37:375][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.06-08.48.38:110][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.06-08.48.38:218][  0]LogDerivedDataCache: Loaded boot cache 0.11s 93MB C:/Users/gmr2/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.06-08.48.38:218][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/gmr2/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.06-08.48.38:218][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.06-08.48.38:218][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.06-08.48.38:218][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.06-08.48.38:218][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.06-08.48.38:238][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.06-08.48.38:250][  0]LogDerivedDataCache: Using Local data cache path C:/Users/gmr2/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.06-08.48.38:261][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.06-08.48.38:262][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.06-08.48.38:263][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.06-08.48.38:263][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.06-08.48.40:528][  0]LogAssetRegistry: FAssetRegistry took 0.0252 seconds to start up
+[2017.10.06-08.48.40:719][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.06-08.48.40:722][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.06-08.48.41:231][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.06-08.48.41:297][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.06-08.48.41:297][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.06-08.48.41:297][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.06-08.48.41:297][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.06-08.48.41:297][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.06-08.48.41:679][  0]LogNetVersion: Haunted02 , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 424621595)
+[2017.10.06-08.48.41:913][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.055021 seconds
+[2017.10.06-08.48.41:920][  0]LogUObjectArray: 35628 objects as part of root set at end of initial load.
+[2017.10.06-08.48.41:920][  0]LogUObjectAllocator: 7494032 out of 0 bytes used by permanent object pool.
+[2017.10.06-08.48.41:920][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.06-08.48.41:965][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.06-08.48.45:145][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.06-08.48.45:179][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.06-08.48.45:972][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.06-08.48.46:478][  0]SourceControl: Source control is disabled
+[2017.10.06-08.48.46:478][  0]SourceControl: Source control is disabled
+[2017.10.06-08.48.46:546][  0]SourceControl: Source control is disabled
+[2017.10.06-08.48.46:608][  0]SourceControl: Source control is disabled
+[2017.10.06-08.48.47:295][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.06-08.48.47:600][  0]LogOcInput: OculusInput pre-init called
+[2017.10.06-08.48.47:858][  0]LogEngine: Initializing Engine...
+[2017.10.06-08.48.48:097][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.06-08.48.48:097][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.06-08.48.48:263][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.06-08.48.48:286][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.06-08.48.48:303][  0]LogInit: FAudioDevice initialized.
+[2017.10.06-08.48.49:449][  0]LogDerivedDataCache: Saved boot cache 1.15s 93MB C:/Users/gmr2/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.06-08.48.49:464][  0]LogInit: Texture streaming: Enabled
+[2017.10.06-08.48.49:553][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.06-08.48.49:837][  0]LogInit: Transaction tracking system initialized
+[2017.10.06-08.48.50:231][  0]BlueprintLog: New page: Editor Load
+[2017.10.06-08.48.51:297][  0]LocalizationService: Localization service is disabled
+[2017.10.06-08.48.52:144][  0]LogConsoleResponse: Display: 
+[2017.10.06-08.48.52:374][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.06-08.48.52:374][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.06-08.48.52:374][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.06-08.48.53:592][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/' took 0.01s
+[2017.10.06-08.48.53:652][  0]SourceControl: Source control is disabled
+[2017.10.06-08.48.53:652][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.06-08.48.53:653][  0]LightingResults: New page: Lighting Build
+[2017.10.06-08.48.53:709][  0]MapCheck: New page: Map Check
+[2017.10.06-08.48.53:709][  0]LightingResults: New page: Lighting Build
+[2017.10.06-08.48.53:928][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.06-08.48.53:934][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.06-08.48.53:948][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.06-08.48.54:033][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 85.087ms to complete.
+[2017.10.06-08.48.54:033][  0]LogFileHelpers: Loading map 'Template_Default' took 0.381
+[2017.10.06-08.48.54:183][  0]LogCollectionManager: Loaded 0 collections in 0.001777 seconds
+[2017.10.06-08.48.54:278][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/Collections/' took 0.01s
+[2017.10.06-08.48.54:278][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Developers/GMR2/Collections/' took 0.01s
+[2017.10.06-08.48.54:278][  0]LogFileCache: Scanning file cache for directory 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Collections/' took 0.01s
+[2017.10.06-08.48.54:278][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.06-08.48.54:287][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2383 classes and 495 folders.
+[2017.10.06-08.48.54:361][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.10.06-08.48.54:414][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.10.06-08.48.54:470][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.06-08.48.54:619][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.10.06-08.48.54:619][  0]LogLoad: (Engine Initialization) Total time: 24.41 seconds
+[2017.10.06-08.48.54:619][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.06-08.48.54:619][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.10.06-08.48.54:620][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.10.06-08.48.54:651][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.06-08.48.54:653][  0]LogSlate: Took 0.000614 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.06-08.48.54:655][  0]LogSlate: Took 0.000375 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.06-08.48.54:660][  0]LogSlate: Took 0.000318 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.06-08.48.54:767][  0]LogSlate: Took 0.000527 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.06-08.48.54:803][  1]LogAssetRegistry: Asset discovery search completed in 14.2973 seconds
+[2017.10.06-08.48.54:805][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.06-08.48.54:805][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000043 seconds (updated 0 objects)
+[2017.10.06-08.48.54:827][  2]LogRenderer: Reallocating scene render targets to support 728x360 Format 10 NumSamples 1 (Frame:1).
+[2017.10.06-08.48.55:658][ 84]LogSlate: Took 0.000554 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.06-08.49.13:241][732]LogRenderer: Reallocating scene render targets to support 1096x600 Format 10 NumSamples 1 (Frame:660).
+[2017.10.06-08.49.16:002][ 27]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.06-08.49.16:168][ 27]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.06-08.49.16:168][ 27]PIE: New page: PIE session: Untitled_1 (Oct 6, 2017, 12:49:16 PM)
+[2017.10.06-08.49.16:168][ 27]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_1
+[2017.10.06-08.49.16:171][ 27]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002424s)
+[2017.10.06-08.49.16:172][ 27]LogAIModule: Creating AISystem for world Untitled_1
+[2017.10.06-08.49.16:172][ 27]LogPlayLevel: PIE: World Init took: (0.000838s)
+[2017.10.06-08.49.16:172][ 27]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_1.Untitled_1 to /Temp/UEDPIE_0_Untitled_1.Untitled_1 (0.003511s)
+[2017.10.06-08.49.16:187][ 27]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.06-08.49.16:192][ 27]LogInit: FAudioDevice initialized.
+[2017.10.06-08.49.16:625][ 27]LogLoad: Game class is 'GameControllerBP_C'
+[2017.10.06-08.49.16:627][ 27]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_1.Untitled_1 up for play (max tick rate 0) at 2017.10.06-10.49.16
+[2017.10.06-08.49.16:628][ 27]LogWorld: Bringing up level for play took: 0.000904
+[2017.10.06-08.49.16:699][ 27]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.10.06-08.49.16:701][ 27]PIE: Play in editor start time for /Temp/UEDPIE_0_Untitled_1 -0.188
+[2017.10.06-08.49.22:918][728]LogSlate: Took 0.000555 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.06-08.49.22:949][728]LogAIModule: Creating AISystem for world HauntedMap01
+[2017.10.06-08.49.22:965][728]Cmd: MAP LOAD FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Level/HauntedMap01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.06-08.49.22:966][728]LightingResults: New page: Lighting Build
+[2017.10.06-08.49.22:966][728]LoadErrors: New page: Loading map: HauntedMap01.umap
+[2017.10.06-08.49.22:967][728]MapCheck: New page: Map Check
+[2017.10.06-08.49.22:967][728]LightingResults: New page: Lighting Build
+[2017.10.06-08.49.23:042][728]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.06-08.49.23:081][728]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.06-08.49.23:174][728]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 92.386ms to complete.
+[2017.10.06-08.49.23:175][728]LogFileHelpers: Loading map 'HauntedMap01' took 0.210
+[2017.10.06-08.49.24:811][902]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.06-08.49.24:829][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.06-08.49.24:830][902]PIE: New page: PIE session: HauntedMap01 (Oct 6, 2017, 12:49:24 PM)
+[2017.10.06-08.49.24:830][902]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_HauntedMap01
+[2017.10.06-08.49.24:831][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001124s)
+[2017.10.06-08.49.24:831][902]LogAIModule: Creating AISystem for world HauntedMap01
+[2017.10.06-08.49.24:832][902]LogPlayLevel: PIE: World Init took: (0.000697s)
+[2017.10.06-08.49.24:832][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/HauntedMap01.HauntedMap01 to /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 (0.002044s)
+[2017.10.06-08.49.24:848][902]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.06-08.49.24:853][902]LogInit: FAudioDevice initialized.
+[2017.10.06-08.49.24:884][902]LogLoad: Game class is 'GameControllerBP_C'
+[2017.10.06-08.49.24:885][902]LogWorld: Bringing World /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 up for play (max tick rate 0) at 2017.10.06-10.49.24
+[2017.10.06-08.49.24:886][902]LogWorld: Bringing up level for play took: 0.001041
+[2017.10.06-08.49.24:887][902]PIE: Play in editor start time for /Game/Level/UEDPIE_0_HauntedMap01 -0.001
+[2017.10.06-08.49.47:327][307]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 113 classes and 0 folders.
+[2017.10.06-08.49.48:122][307]LogSlate: Took 0.000512 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.06-08.49.48:198][307]LogSlate: Took 0.000482 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.06-08.49.48:295][308]LogSlate: Took 0.000502 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.06-08.50.20:315][517]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.06-08.50.20:347][517]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.06-08.50.20:347][517]PIE: New page: PIE session: HauntedMap01 (Oct 6, 2017, 12:50:20 PM)
+[2017.10.06-08.50.20:347][517]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_HauntedMap01
+[2017.10.06-08.50.20:348][517]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001125s)
+[2017.10.06-08.50.20:349][517]LogAIModule: Creating AISystem for world HauntedMap01
+[2017.10.06-08.50.20:349][517]LogPlayLevel: PIE: World Init took: (0.000995s)
+[2017.10.06-08.50.20:350][517]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/HauntedMap01.HauntedMap01 to /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 (0.002511s)
+[2017.10.06-08.50.20:376][517]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.06-08.50.20:381][517]LogInit: FAudioDevice initialized.
+[2017.10.06-08.50.20:418][517]LogLoad: Game class is 'GameControllerBP_C'
+[2017.10.06-08.50.20:420][517]LogWorld: Bringing World /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 up for play (max tick rate 0) at 2017.10.06-10.50.20
+[2017.10.06-08.50.20:420][517]LogWorld: Bringing up level for play took: 0.001177
+[2017.10.06-08.50.20:422][517]PIE: Play in editor start time for /Game/Level/UEDPIE_0_HauntedMap01 -0.458
+[2017.10.06-08.50.39:072][126]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.06-08.50.39:093][126]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.06-08.50.39:093][126]PIE: New page: PIE session: HauntedMap01 (Oct 6, 2017, 12:50:39 PM)
+[2017.10.06-08.50.39:093][126]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_HauntedMap01
+[2017.10.06-08.50.39:095][126]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001346s)
+[2017.10.06-08.50.39:095][126]LogAIModule: Creating AISystem for world HauntedMap01
+[2017.10.06-08.50.39:096][126]LogPlayLevel: PIE: World Init took: (0.000792s)
+[2017.10.06-08.50.39:096][126]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/HauntedMap01.HauntedMap01 to /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 (0.002367s)
+[2017.10.06-08.50.39:118][126]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.06-08.50.39:123][126]LogInit: FAudioDevice initialized.
+[2017.10.06-08.50.39:170][126]LogLoad: Game class is 'GameControllerBP_C'
+[2017.10.06-08.50.39:171][126]LogWorld: Bringing World /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 up for play (max tick rate 0) at 2017.10.06-10.50.39
+[2017.10.06-08.50.39:171][126]LogWorld: Bringing up level for play took: 0.001135
+[2017.10.06-08.50.39:175][126]PIE: Play in editor start time for /Game/Level/UEDPIE_0_HauntedMap01 0.299
+[2017.10.06-08.50.39:190][126]LogRenderer: Reallocating scene render targets to support 1292x756 Format 10 NumSamples 1 (Frame:1).
+[2017.10.06-08.52.25:455][128]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.06-08.52.25:477][128]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.06-08.52.25:494][128]LogPlayLevel: [PlayLevel] Compiling PlayerBP2 before play...
+[2017.10.06-08.52.25:714][128]LogPlayLevel: PlayLevel: Blueprint regeneration took 236 ms (1 blueprints)
+[2017.10.06-08.52.25:714][128]PIE: New page: PIE session: HauntedMap01 (Oct 6, 2017, 12:52:25 PM)
+[2017.10.06-08.52.25:714][128]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_HauntedMap01
+[2017.10.06-08.52.25:715][128]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001226s)
+[2017.10.06-08.52.25:716][128]LogAIModule: Creating AISystem for world HauntedMap01
+[2017.10.06-08.52.25:716][128]LogPlayLevel: PIE: World Init took: (0.000839s)
+[2017.10.06-08.52.25:716][128]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/HauntedMap01.HauntedMap01 to /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 (0.002296s)
+[2017.10.06-08.52.25:739][128]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.06-08.52.25:745][128]LogInit: FAudioDevice initialized.
+[2017.10.06-08.52.25:796][128]LogLoad: Game class is 'GameControllerBP_C'
+[2017.10.06-08.52.25:797][128]LogWorld: Bringing World /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 up for play (max tick rate 0) at 2017.10.06-10.52.25
+[2017.10.06-08.52.25:797][128]LogWorld: Bringing up level for play took: 0.001212
+[2017.10.06-08.52.25:801][128]PIE: Play in editor start time for /Game/Level/UEDPIE_0_HauntedMap01 0.937
+[2017.10.06-08.54.57:790][377]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.06-08.54.57:813][377]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.06-08.54.57:813][377]PIE: New page: PIE session: HauntedMap01 (Oct 6, 2017, 12:54:57 PM)
+[2017.10.06-08.54.57:813][377]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_HauntedMap01
+[2017.10.06-08.54.57:815][377]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001897s)
+[2017.10.06-08.54.57:817][377]LogAIModule: Creating AISystem for world HauntedMap01
+[2017.10.06-08.54.57:817][377]LogPlayLevel: PIE: World Init took: (0.001936s)
+[2017.10.06-08.54.57:817][377]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/HauntedMap01.HauntedMap01 to /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 (0.004132s)
+[2017.10.06-08.54.57:843][377]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.06-08.54.57:849][377]LogInit: FAudioDevice initialized.
+[2017.10.06-08.54.57:881][377]LogLoad: Game class is 'GameControllerBP_C'
+[2017.10.06-08.54.57:883][377]LogWorld: Bringing World /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 up for play (max tick rate 0) at 2017.10.06-10.54.57
+[2017.10.06-08.54.57:883][377]LogWorld: Bringing up level for play took: 0.001662
+[2017.10.06-08.54.57:885][377]PIE: Play in editor start time for /Game/Level/UEDPIE_0_HauntedMap01 1.028
+[2017.10.06-08.56.38:979][704]LogEditorViewport: Clicking Background
+[2017.10.06-08.56.39:924][787]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.06-08.56.39:948][787]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.06-08.56.39:948][787]PIE: New page: PIE session: HauntedMap01 (Oct 6, 2017, 12:56:39 PM)
+[2017.10.06-08.56.39:948][787]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_HauntedMap01
+[2017.10.06-08.56.39:950][787]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001545s)
+[2017.10.06-08.56.39:950][787]LogAIModule: Creating AISystem for world HauntedMap01
+[2017.10.06-08.56.39:951][787]LogPlayLevel: PIE: World Init took: (0.001377s)
+[2017.10.06-08.56.39:951][787]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/HauntedMap01.HauntedMap01 to /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 (0.003161s)
+[2017.10.06-08.56.39:974][787]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.06-08.56.39:979][787]LogInit: FAudioDevice initialized.
+[2017.10.06-08.56.40:012][787]LogLoad: Game class is 'GameControllerBP_C'
+[2017.10.06-08.56.40:014][787]LogWorld: Bringing World /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 up for play (max tick rate 0) at 2017.10.06-10.56.40
+[2017.10.06-08.56.40:014][787]LogWorld: Bringing up level for play took: 0.001224
+[2017.10.06-08.56.40:016][787]PIE: Play in editor start time for /Game/Level/UEDPIE_0_HauntedMap01 -0.837
+[2017.10.06-08.59.09:324][455]LogEditorTransaction: Undo Delete current selection
+[2017.10.06-09.04.26:302][523]LogLinker: Can't find file '/Game/TwinStickBP/Blueprints/TwinStickPawn'
+[2017.10.06-09.04.26:303][523]LogLinker: Can't find file '/Game/TwinStickBP/Blueprints/TwinStickPawn'
+[2017.10.06-09.04.26:334][523]LogBlueprint: Warning: [PlayerBP2] 'MovementSpeed' variable not found. Base class was probably changed.
+[2017.10.06-09.04.26:335][523]LogBlueprint: Warning: [PlayerBP2] 'ShipMeshComponent' variable not found. Base class was probably changed.
+[2017.10.06-09.04.30:208][848]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/HauntedMap01' took 0.016
+[2017.10.06-09.04.30:210][848]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PlayerBP2] ([1] browsable assets)...
+[2017.10.06-09.04.30:210][848]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PlayerBP2]
+[2017.10.06-09.04.30:344][848]LogSavePackage: Save=113.33ms
+[2017.10.06-09.04.30:344][848]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/PlayerBP2_Auto1BECE55F44D63AA61499E9EAE87487170.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/Autosaves/Game/Blueprints/PlayerBP2_Auto1.uasset'
+[2017.10.06-09.04.30:347][848]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/Autosaves/Game/Blueprints/PlayerBP2_Auto1.uasset
+[2017.10.06-09.04.30:347][848]LogFileHelpers: Auto-saving content packages took 0.138
+[2017.10.06-09.07.39:984][827]LogBlueprint: Warning: [PlayerBP2] 'MovementSpeed' variable not found. Base class was probably changed.
+[2017.10.06-09.07.39:984][827]LogBlueprint: Warning: [PlayerBP2] 'ShipMeshComponent' variable not found. Base class was probably changed.
+[2017.10.06-09.09.41:442][922]LogSlate: Took 0.013783 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.10.06-09.10.26:737][486]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBP2" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset" SILENT=true
+[2017.10.06-09.10.26:872][486]LogSavePackage: Save=115.04ms
+[2017.10.06-09.10.26:872][486]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/PlayerBP269B87AC14CE7A53F8C8ECFBCAE881747.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset'
+[2017.10.06-09.10.26:877][486]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset
+[2017.10.06-09.10.35:083][412]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBP2" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset" SILENT=true
+[2017.10.06-09.10.35:205][412]LogSavePackage: Save=113.23ms
+[2017.10.06-09.10.35:205][412]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/PlayerBP2FE9EA81F47638F5B9588979774428D1F.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset'
+[2017.10.06-09.10.35:208][412]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset
+[2017.10.06-09.10.42:542][178]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBP2" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset" SILENT=true
+[2017.10.06-09.10.42:662][178]LogSavePackage: Save=111.26ms
+[2017.10.06-09.10.42:662][178]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/PlayerBP2EC4DA5814FBBFA14947B4986B80516D6.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset'
+[2017.10.06-09.10.42:665][178]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset
+[2017.10.06-09.10.45:391][425]BlueprintLog: New page: Compile PlayerBP2
+[2017.10.06-09.10.45:434][425]LogBlueprint: Warning: [Compiler PlayerBP2] Get Input Axis references unknown Axis 'MoveForward' for  Get MoveForward
+[2017.10.06-09.10.45:434][425]LogBlueprint: Warning: [Compiler PlayerBP2] Could not find a variable named "MovementSpeed" in 'PlayerBP2_C'.
+Make sure 'PlayerBP2_C' has been compiled for  Get MovementSpeed
+[2017.10.06-09.10.45:455][425]LogBlueprint: Error: [Compiler PlayerBP2] The property associated with  Movement Speed  could not be found
+[2017.10.06-09.10.45:658][425]LogBlueprint: Warning: [Compiler PlayerBP2] [1335.47] Compile of PlayerBP2 failed. 1 Fatal Issue(s) 2 Warning(s) [in 266 ms] (/Game/Blueprints/PlayerBP2.PlayerBP2)
+[2017.10.06-09.11.35:211][286]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBP2" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset" SILENT=true
+[2017.10.06-09.11.35:339][286]LogSavePackage: Save=109.40ms
+[2017.10.06-09.11.35:339][286]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/PlayerBP2063B667B4E7D8B5554D0449A18D84DE3.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset'
+[2017.10.06-09.11.35:346][286]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset
+[2017.10.06-09.11.36:353][390]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.06-09.11.36:374][390]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.06-09.11.36:393][390]LogPlayLevel: [PlayLevel] Compiling PlayerBP2 before play...
+[2017.10.06-09.11.36:417][390]LogBlueprint: Warning: [Compiler PlayerBP2] Get Input Axis references unknown Axis 'MoveForward' for  Get MoveForward
+[2017.10.06-09.11.36:422][390]LogBlueprint: Warning: [Compiler PlayerBP2] [1386.23] Compile of PlayerBP2 successful, but with 1 Warning(s) [in 29 ms] (/Game/Blueprints/PlayerBP2.PlayerBP2)
+[2017.10.06-09.11.36:615][390]LogPlayLevel: PlayLevel: Blueprint regeneration took 241 ms (1 blueprints)
+[2017.10.06-09.11.36:615][390]PIE: New page: PIE session: HauntedMap01 (Oct 6, 2017, 1:11:36 PM)
+[2017.10.06-09.11.36:615][390]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_HauntedMap01
+[2017.10.06-09.11.36:617][390]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001260s)
+[2017.10.06-09.11.36:618][390]LogAIModule: Creating AISystem for world HauntedMap01
+[2017.10.06-09.11.36:618][390]LogPlayLevel: PIE: World Init took: (0.001714s)
+[2017.10.06-09.11.36:618][390]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/HauntedMap01.HauntedMap01 to /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 (0.003229s)
+[2017.10.06-09.11.36:641][390]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.06-09.11.36:648][390]LogInit: FAudioDevice initialized.
+[2017.10.06-09.11.36:696][390]LogLoad: Game class is 'GameControllerBP_C'
+[2017.10.06-09.11.36:697][390]LogWorld: Bringing World /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 up for play (max tick rate 0) at 2017.10.06-11.11.36
+[2017.10.06-09.11.36:698][390]LogWorld: Bringing up level for play took: 0.001236
+[2017.10.06-09.11.36:701][390]PIE: Play in editor start time for /Game/Level/UEDPIE_0_HauntedMap01 -0.171
+[2017.10.06-09.11.38:732][599]BlueprintLog: New page: Compile PlayerBP2
+[2017.10.06-09.11.38:775][599]LogBlueprint: Warning: [Compiler PlayerBP2] Get Input Axis references unknown Axis 'MoveForward' for  Get MoveForward
+[2017.10.06-09.11.38:965][599]LogBlueprint: Warning: [Compiler PlayerBP2] [1388.78] Compile of PlayerBP2 successful, but with 1 Warning(s) [in 232 ms] (/Game/Blueprints/PlayerBP2.PlayerBP2)
+[2017.10.06-09.12.07:488][366]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBP2" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset" SILENT=true
+[2017.10.06-09.12.07:658][366]LogSavePackage: Save=150.33ms
+[2017.10.06-09.12.07:658][366]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/PlayerBP2BE50B469487B69797D0B95848A23CB0E.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset'
+[2017.10.06-09.12.07:675][366]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset
+[2017.10.06-09.12.09:660][542]BlueprintLog: New page: Compile PlayerBP2
+[2017.10.06-09.12.10:793][607]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.06-09.12.10:817][607]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.06-09.12.10:817][607]PIE: New page: PIE session: HauntedMap01 (Oct 6, 2017, 1:12:10 PM)
+[2017.10.06-09.12.10:817][607]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_HauntedMap01
+[2017.10.06-09.12.10:818][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001149s)
+[2017.10.06-09.12.10:819][607]LogAIModule: Creating AISystem for world HauntedMap01
+[2017.10.06-09.12.10:819][607]LogPlayLevel: PIE: World Init took: (0.000810s)
+[2017.10.06-09.12.10:820][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/HauntedMap01.HauntedMap01 to /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 (0.002202s)
+[2017.10.06-09.12.10:842][607]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.06-09.12.10:847][607]LogInit: FAudioDevice initialized.
+[2017.10.06-09.12.10:894][607]LogLoad: Game class is 'GameControllerBP_C'
+[2017.10.06-09.12.10:896][607]LogWorld: Bringing World /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 up for play (max tick rate 0) at 2017.10.06-11.12.10
+[2017.10.06-09.12.10:896][607]LogWorld: Bringing up level for play took: 0.001399
+[2017.10.06-09.12.10:900][607]PIE: Play in editor start time for /Game/Level/UEDPIE_0_HauntedMap01 0.027
+[2017.10.06-09.12.55:895][424]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBP2" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset" SILENT=true
+[2017.10.06-09.12.56:030][424]LogSavePackage: Save=115.63ms
+[2017.10.06-09.12.56:030][424]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/PlayerBP261F83A48433713BFAAF29CAA46954475.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset'
+[2017.10.06-09.12.56:036][424]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset
+[2017.10.06-09.12.58:105][653]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBP2" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset" SILENT=true
+[2017.10.06-09.12.58:233][653]LogSavePackage: Save=119.55ms
+[2017.10.06-09.12.58:233][653]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/PlayerBP299C9C2CC47632B0524BF76AE6EFC53CF.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset'
+[2017.10.06-09.12.58:236][653]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset
+[2017.10.06-09.13.04:798][370]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBP2" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset" SILENT=true
+[2017.10.06-09.13.04:924][370]LogSavePackage: Save=116.95ms
+[2017.10.06-09.13.04:924][370]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/PlayerBP2E555EFA1424B851E01539D8D43D89555.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset'
+[2017.10.06-09.13.04:929][370]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset
+[2017.10.06-09.13.06:064][492]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.06-09.13.06:084][492]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.06-09.13.06:104][492]LogPlayLevel: [PlayLevel] Compiling PlayerBP2 before play...
+[2017.10.06-09.13.06:322][492]LogPlayLevel: PlayLevel: Blueprint regeneration took 237 ms (1 blueprints)
+[2017.10.06-09.13.06:322][492]PIE: New page: PIE session: HauntedMap01 (Oct 6, 2017, 1:13:06 PM)
+[2017.10.06-09.13.06:322][492]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_HauntedMap01
+[2017.10.06-09.13.06:323][492]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001091s)
+[2017.10.06-09.13.06:324][492]LogAIModule: Creating AISystem for world HauntedMap01
+[2017.10.06-09.13.06:324][492]LogPlayLevel: PIE: World Init took: (0.000782s)
+[2017.10.06-09.13.06:324][492]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/HauntedMap01.HauntedMap01 to /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 (0.002109s)
+[2017.10.06-09.13.06:347][492]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.06-09.13.06:352][492]LogInit: FAudioDevice initialized.
+[2017.10.06-09.13.06:403][492]LogLoad: Game class is 'GameControllerBP_C'
+[2017.10.06-09.13.06:405][492]LogWorld: Bringing World /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 up for play (max tick rate 0) at 2017.10.06-11.13.06
+[2017.10.06-09.13.06:405][492]LogWorld: Bringing up level for play took: 0.001235
+[2017.10.06-09.13.06:408][492]PIE: Play in editor start time for /Game/Level/UEDPIE_0_HauntedMap01 -0.468
+[2017.10.06-09.15.17:525][631]BlueprintLog: New page: Compile PlayerBP2
+[2017.10.06-09.15.49:868][666]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/HauntedMap01' took 0.020
+[2017.10.06-09.15.49:870][666]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/Blueprints/PlayerBP2] ([1] browsable assets)...
+[2017.10.06-09.15.49:870][666]OBJ SavePackage: Finished generating thumbnails for package [/Game/Blueprints/PlayerBP2]
+[2017.10.06-09.15.50:010][666]LogSavePackage: Save=117.24ms
+[2017.10.06-09.15.50:010][666]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/PlayerBP2_Auto2C7CE30F542D9E4EEA61530BDD1F5FAC0.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/Autosaves/Game/Blueprints/PlayerBP2_Auto2.uasset'
+[2017.10.06-09.15.50:013][666]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/Autosaves/Game/Blueprints/PlayerBP2_Auto2.uasset
+[2017.10.06-09.15.50:013][666]LogFileHelpers: Auto-saving content packages took 0.145
+[2017.10.06-09.15.54:201][822]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBP2" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset" SILENT=true
+[2017.10.06-09.15.54:323][822]LogSavePackage: Save=113.54ms
+[2017.10.06-09.15.54:324][822]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/PlayerBP2170799424A5FAC91BCE0848846141F79.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset'
+[2017.10.06-09.15.54:328][822]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset
+[2017.10.06-09.15.58:844][299]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.06-09.15.58:865][299]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.06-09.15.58:865][299]PIE: New page: PIE session: HauntedMap01 (Oct 6, 2017, 1:15:58 PM)
+[2017.10.06-09.15.58:866][299]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_HauntedMap01
+[2017.10.06-09.15.58:867][299]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001153s)
+[2017.10.06-09.15.58:868][299]LogAIModule: Creating AISystem for world HauntedMap01
+[2017.10.06-09.15.58:868][299]LogPlayLevel: PIE: World Init took: (0.001635s)
+[2017.10.06-09.15.58:869][299]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/HauntedMap01.HauntedMap01 to /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 (0.003071s)
+[2017.10.06-09.15.58:891][299]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.06-09.15.58:897][299]LogInit: FAudioDevice initialized.
+[2017.10.06-09.15.58:926][299]LogLoad: Game class is 'GameControllerBP_C'
+[2017.10.06-09.15.58:927][299]LogWorld: Bringing World /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 up for play (max tick rate 0) at 2017.10.06-11.15.58
+[2017.10.06-09.15.58:927][299]LogWorld: Bringing up level for play took: 0.001076
+[2017.10.06-09.15.58:929][299]PIE: Play in editor start time for /Game/Level/UEDPIE_0_HauntedMap01 0.043
+[2017.10.06-09.17.00:977][658]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.06-09.17.01:000][658]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.06-09.17.01:000][658]PIE: New page: PIE session: HauntedMap01 (Oct 6, 2017, 1:17:01 PM)
+[2017.10.06-09.17.01:000][658]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_HauntedMap01
+[2017.10.06-09.17.01:001][658]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001220s)
+[2017.10.06-09.17.01:002][658]LogAIModule: Creating AISystem for world HauntedMap01
+[2017.10.06-09.17.01:002][658]LogPlayLevel: PIE: World Init took: (0.001209s)
+[2017.10.06-09.17.01:003][658]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/HauntedMap01.HauntedMap01 to /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 (0.002674s)
+[2017.10.06-09.17.01:025][658]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.06-09.17.01:030][658]LogInit: FAudioDevice initialized.
+[2017.10.06-09.17.01:061][658]LogLoad: Game class is 'GameControllerBP_C'
+[2017.10.06-09.17.01:062][658]LogWorld: Bringing World /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 up for play (max tick rate 0) at 2017.10.06-11.17.01
+[2017.10.06-09.17.01:063][658]LogWorld: Bringing up level for play took: 0.001176
+[2017.10.06-09.17.01:064][658]PIE: Play in editor start time for /Game/Level/UEDPIE_0_HauntedMap01 0.175
+[2017.10.06-09.17.53:872][763]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBP2" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset" SILENT=true
+[2017.10.06-09.17.54:006][763]LogSavePackage: Save=114.68ms
+[2017.10.06-09.17.54:006][763]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/PlayerBP2EB16F65C42D4939EDAA265AF003BD5BD.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset'
+[2017.10.06-09.17.54:008][763]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset
+[2017.10.06-09.17.58:340][240]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBP2" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset" SILENT=true
+[2017.10.06-09.17.58:460][240]LogSavePackage: Save=111.05ms
+[2017.10.06-09.17.58:461][240]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/PlayerBP25ECF4A884E428ACA02BB70821D22C1B4.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset'
+[2017.10.06-09.17.58:465][240]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset
+[2017.10.06-09.18.14:959][158]LogEditorViewport: Clicking Background
+[2017.10.06-09.18.16:547][300]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.06-09.18.16:569][300]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.06-09.18.16:569][300]PIE: New page: PIE session: HauntedMap01 (Oct 6, 2017, 1:18:16 PM)
+[2017.10.06-09.18.16:569][300]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_HauntedMap01
+[2017.10.06-09.18.16:571][300]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001127s)
+[2017.10.06-09.18.16:571][300]LogAIModule: Creating AISystem for world HauntedMap01
+[2017.10.06-09.18.16:571][300]LogPlayLevel: PIE: World Init took: (0.000833s)
+[2017.10.06-09.18.16:572][300]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/HauntedMap01.HauntedMap01 to /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 (0.002200s)
+[2017.10.06-09.18.16:595][300]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.06-09.18.16:601][300]LogInit: FAudioDevice initialized.
+[2017.10.06-09.18.16:628][300]LogLoad: Game class is 'GameControllerBP_C'
+[2017.10.06-09.18.16:630][300]LogWorld: Bringing World /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 up for play (max tick rate 0) at 2017.10.06-11.18.16
+[2017.10.06-09.18.16:630][300]LogWorld: Bringing up level for play took: 0.001195
+[2017.10.06-09.18.16:632][300]PIE: Play in editor start time for /Game/Level/UEDPIE_0_HauntedMap01 -0.262
+[2017.10.06-09.24.54:434][444]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBP2" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset" SILENT=true
+[2017.10.06-09.24.54:571][444]LogSavePackage: Save=117.22ms
+[2017.10.06-09.24.54:571][444]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/PlayerBP247FA14E243F7EAEB1E68C4AAF34F5D5D.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset'
+[2017.10.06-09.24.54:576][444]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset
+[2017.10.06-09.25.15:168][527]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBP2" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset" SILENT=true
+[2017.10.06-09.25.15:293][527]LogSavePackage: Save=116.24ms
+[2017.10.06-09.25.15:294][527]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/PlayerBP264B109DE46CD15A79C18049599D3E87B.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset'
+[2017.10.06-09.25.15:298][527]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset
+[2017.10.06-09.26.41:573][326]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBP2" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset" SILENT=true
+[2017.10.06-09.26.41:712][326]LogSavePackage: Save=118.91ms
+[2017.10.06-09.26.41:712][326]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/PlayerBP24BB8976F4B54E5E6B825648841337CFC.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset'
+[2017.10.06-09.26.41:715][326]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset
+[2017.10.06-09.26.51:390][377]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBP2" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset" SILENT=true
+[2017.10.06-09.26.51:526][377]LogSavePackage: Save=116.49ms
+[2017.10.06-09.26.51:526][377]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/PlayerBP2A6723BCF49CBF5178816A082D9A88E32.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset'
+[2017.10.06-09.26.51:528][377]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset
+[2017.10.06-09.26.53:560][593]BlueprintLog: New page: Compile PlayerBP2
+[2017.10.06-09.29.20:288][705]LogEditorTransaction: Undo Delete current selection
+[2017.10.06-09.29.20:712][730]LogEditorTransaction: Undo Paste clipboard contents
+[2017.10.06-09.29.24:007][ 34]LogUObjectHash: Warning: Ambiguous search, could be EdGraphNode_Comment /Game/Blueprints/PlayerBP2.PlayerBP2:Set My Flipbook.EdGraphNode_Comment_4 or EdGraphNode_Comment /Game/Blueprints/PlayerBP2.PlayerBP2:Set My Flipbook.EdGraphNode_Comment_4
+[2017.10.06-09.36.02:526][887]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBP2" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset" SILENT=true
+[2017.10.06-09.36.02:712][887]LogSavePackage: Save=160.76ms
+[2017.10.06-09.36.02:713][887]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/PlayerBP2D29877CE404DE31AAC3A7D881CC44323.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset'
+[2017.10.06-09.36.02:717][887]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset
+[2017.10.06-09.36.04:043][ 21]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBP2" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset" SILENT=true
+[2017.10.06-09.36.04:192][ 21]LogSavePackage: Save=139.45ms
+[2017.10.06-09.36.04:192][ 21]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/PlayerBP2449517684D1CCA31BBBA3FA356A01904.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset'
+[2017.10.06-09.36.04:194][ 21]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset
+[2017.10.06-09.36.06:277][172]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBP2" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset" SILENT=true
+[2017.10.06-09.36.06:428][172]LogSavePackage: Save=141.41ms
+[2017.10.06-09.36.06:428][172]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/PlayerBP25DCB39294852D11EB1C45F9F37732883.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset'
+[2017.10.06-09.36.06:432][172]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset
+[2017.10.06-09.36.07:443][225]BlueprintLog: New page: Compile PlayerBP2
+[2017.10.06-09.36.09:687][325]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.06-09.36.09:713][325]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.06-09.36.09:714][325]PIE: New page: PIE session: HauntedMap01 (Oct 6, 2017, 1:36:09 PM)
+[2017.10.06-09.36.09:714][325]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_HauntedMap01
+[2017.10.06-09.36.09:715][325]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001340s)
+[2017.10.06-09.36.09:717][325]LogAIModule: Creating AISystem for world HauntedMap01
+[2017.10.06-09.36.09:717][325]LogPlayLevel: PIE: World Init took: (0.001876s)
+[2017.10.06-09.36.09:717][325]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/HauntedMap01.HauntedMap01 to /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 (0.003546s)
+[2017.10.06-09.36.09:746][325]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.06-09.36.09:753][325]LogInit: FAudioDevice initialized.
+[2017.10.06-09.36.09:807][325]LogLoad: Game class is 'GameControllerBP_C'
+[2017.10.06-09.36.09:809][325]LogWorld: Bringing World /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 up for play (max tick rate 0) at 2017.10.06-11.36.09
+[2017.10.06-09.36.09:809][325]LogWorld: Bringing up level for play took: 0.001377
+[2017.10.06-09.36.09:815][325]PIE: Play in editor start time for /Game/Level/UEDPIE_0_HauntedMap01 0.863
+[2017.10.06-09.36.24:491][409]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBP2" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset" SILENT=true
+[2017.10.06-09.36.24:640][409]LogSavePackage: Save=129.69ms
+[2017.10.06-09.36.24:640][409]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/PlayerBP258D14A0F4D8C407FD8880AA1874EDC9B.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset'
+[2017.10.06-09.36.24:643][409]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset
+[2017.10.06-09.36.30:910][949]LogRenderer: Reallocating scene render targets to support 1528x828 Format 10 NumSamples 1 (Frame:1).
+[2017.10.06-09.37.19:144][229]LogSavePackage: Save=4.69ms
+[2017.10.06-09.37.19:144][229]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotAttackKnightFE262A9E429E800B012F3198B80BA4C7.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotAttackKnight.uasset'
+[2017.10.06-09.37.19:148][229]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotAttackKnight.uasset
+[2017.10.06-09.37.37:489][813]LogSavePackage: Save=4.49ms
+[2017.10.06-09.37.37:489][813]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopRightAttackKnight5B265C5B40AB2BB6655515B1A9106645.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopRightAttackKnight.uasset'
+[2017.10.06-09.37.37:493][813]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopRightAttackKnight.uasset
+[2017.10.06-09.37.40:776][ 99]LogSavePackage: Save=4.24ms
+[2017.10.06-09.37.40:776][ 99]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopLeftAttackKnightD614A1504E8A15801C1534881285BEBF.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopLeftAttackKnight.uasset'
+[2017.10.06-09.37.40:780][ 99]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopLeftAttackKnight.uasset
+[2017.10.06-09.37.43:991][368]LogSavePackage: Save=4.33ms
+[2017.10.06-09.37.43:991][368]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopAttackKnight59BC0FE0455DC68A40B7C587ABE8C759.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopAttackKnight.uasset'
+[2017.10.06-09.37.43:995][368]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopAttackKnight.uasset
+[2017.10.06-09.37.47:313][700]LogSavePackage: Save=4.48ms
+[2017.10.06-09.37.47:313][700]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_RightAttackKnight4BBD4933484E7133FED8818D8572ADBA.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_RightAttackKnight.uasset'
+[2017.10.06-09.37.47:317][700]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_RightAttackKnight.uasset
+[2017.10.06-09.37.50:336][959]LogSavePackage: Save=4.35ms
+[2017.10.06-09.37.50:336][959]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_LeftAttackKnightF560ABCB4617073B4FF79C9305FF8CAD.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_LeftAttackKnight.uasset'
+[2017.10.06-09.37.50:379][959]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_LeftAttackKnight.uasset
+[2017.10.06-09.37.54:146][232]LogSavePackage: Save=4.71ms
+[2017.10.06-09.37.54:146][232]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotRightAttackKinght8C014FFD440639FD28EE04AE9DDE4BD7.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotRightAttackKinght.uasset'
+[2017.10.06-09.37.54:150][232]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotRightAttackKinght.uasset
+[2017.10.06-09.38.39:022][ 90]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Level/HauntedMap01' took 0.027
+[2017.10.06-09.38.39:024][ 90]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Art/Flipbook/Kight_Attack/fb_BotLeftAttackKnight] ([1] browsable assets)...
+[2017.10.06-09.38.39:033][ 90]OBJ SavePackage:     Rendered thumbnail for [PaperFlipbook /Game/Art/Flipbook/Kight_Attack/fb_BotLeftAttackKnight.fb_BotLeftAttackKnight]
+[2017.10.06-09.38.39:033][ 90]OBJ SavePackage: Finished generating thumbnails for package [/Game/Art/Flipbook/Kight_Attack/fb_BotLeftAttackKnight]
+[2017.10.06-09.38.39:059][ 90]LogSavePackage: Save=4.41ms
+[2017.10.06-09.38.39:059][ 90]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotLeftAttackKnight_Auto3D38E9C5F4AB951885C7710A34142E675.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/Autosaves/Game/Art/Flipbook/Kight_Attack/fb_BotLeftAttackKnight_Auto3.uasset'
+[2017.10.06-09.38.39:061][ 90]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/Autosaves/Game/Art/Flipbook/Kight_Attack/fb_BotLeftAttackKnight_Auto3.uasset
+[2017.10.06-09.38.39:061][ 90]LogFileHelpers: Auto-saving content packages took 0.038
+[2017.10.06-09.39.51:770][  6]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBP2" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset" SILENT=true
+[2017.10.06-09.39.51:921][  6]LogSavePackage: Save=130.96ms
+[2017.10.06-09.39.51:921][  6]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/PlayerBP2F934506448668C291037F9A72A379FEE.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset'
+[2017.10.06-09.39.51:925][  6]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset
+[2017.10.06-09.39.55:199][312]BlueprintLog: New page: Compile PlayerBP2
+[2017.10.06-09.40.19:158][967]BlueprintLog: New page: Compile PlayerBP2
+[2017.10.06-09.40.40:348][149]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.06-09.40.40:370][149]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.06-09.40.40:370][149]PIE: New page: PIE session: HauntedMap01 (Oct 6, 2017, 1:40:40 PM)
+[2017.10.06-09.40.40:370][149]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_HauntedMap01
+[2017.10.06-09.40.40:371][149]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001273s)
+[2017.10.06-09.40.40:373][149]LogAIModule: Creating AISystem for world HauntedMap01
+[2017.10.06-09.40.40:373][149]LogPlayLevel: PIE: World Init took: (0.001736s)
+[2017.10.06-09.40.40:373][149]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/HauntedMap01.HauntedMap01 to /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 (0.003264s)
+[2017.10.06-09.40.40:398][149]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.06-09.40.40:404][149]LogInit: FAudioDevice initialized.
+[2017.10.06-09.40.40:457][149]LogLoad: Game class is 'GameControllerBP_C'
+[2017.10.06-09.40.40:459][149]LogWorld: Bringing World /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 up for play (max tick rate 0) at 2017.10.06-11.40.40
+[2017.10.06-09.40.40:459][149]LogWorld: Bringing up level for play took: 0.001261
+[2017.10.06-09.40.40:463][149]PIE: Play in editor start time for /Game/Level/UEDPIE_0_HauntedMap01 -0.503
+[2017.10.06-09.41.12:461][595]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBP2" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset" SILENT=true
+[2017.10.06-09.41.12:612][595]LogSavePackage: Save=129.80ms
+[2017.10.06-09.41.12:612][595]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/PlayerBP25B4D74D14AC526680455C5A01E29C676.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset'
+[2017.10.06-09.41.12:617][595]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset
+[2017.10.06-09.41.15:290][861]BlueprintLog: New page: Compile PlayerBP2
+[2017.10.06-09.41.25:205][910]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.06-09.41.25:227][910]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.06-09.41.25:227][910]PIE: New page: PIE session: HauntedMap01 (Oct 6, 2017, 1:41:25 PM)
+[2017.10.06-09.41.25:227][910]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_HauntedMap01
+[2017.10.06-09.41.25:228][910]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001166s)
+[2017.10.06-09.41.25:229][910]LogAIModule: Creating AISystem for world HauntedMap01
+[2017.10.06-09.41.25:230][910]LogPlayLevel: PIE: World Init took: (0.001213s)
+[2017.10.06-09.41.25:230][910]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/HauntedMap01.HauntedMap01 to /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 (0.002621s)
+[2017.10.06-09.41.25:252][910]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.06-09.41.25:258][910]LogInit: FAudioDevice initialized.
+[2017.10.06-09.41.25:303][910]LogLoad: Game class is 'GameControllerBP_C'
+[2017.10.06-09.41.25:304][910]LogWorld: Bringing World /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 up for play (max tick rate 0) at 2017.10.06-11.41.25
+[2017.10.06-09.41.25:305][910]LogWorld: Bringing up level for play took: 0.001113
+[2017.10.06-09.41.25:308][910]PIE: Play in editor start time for /Game/Level/UEDPIE_0_HauntedMap01 0.338
+[2017.10.06-09.41.53:114][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBP2" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset" SILENT=true
+[2017.10.06-09.41.53:276][979]LogSavePackage: Save=139.98ms
+[2017.10.06-09.41.53:276][979]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/PlayerBP27ADEEC2B40CF53B9344741A58EEDFD0C.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset'
+[2017.10.06-09.41.53:280][979]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset
+[2017.10.06-09.41.54:703][117]BlueprintLog: New page: Compile PlayerBP2
+[2017.10.06-09.41.55:908][209]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.06-09.41.55:928][209]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.06-09.41.55:928][209]PIE: New page: PIE session: HauntedMap01 (Oct 6, 2017, 1:41:55 PM)
+[2017.10.06-09.41.55:928][209]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_HauntedMap01
+[2017.10.06-09.41.55:929][209]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001267s)
+[2017.10.06-09.41.55:930][209]LogAIModule: Creating AISystem for world HauntedMap01
+[2017.10.06-09.41.55:931][209]LogPlayLevel: PIE: World Init took: (0.000948s)
+[2017.10.06-09.41.55:931][209]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/HauntedMap01.HauntedMap01 to /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 (0.002787s)
+[2017.10.06-09.41.55:953][209]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.06-09.41.55:958][209]LogInit: FAudioDevice initialized.
+[2017.10.06-09.41.56:009][209]LogLoad: Game class is 'GameControllerBP_C'
+[2017.10.06-09.41.56:011][209]LogWorld: Bringing World /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 up for play (max tick rate 0) at 2017.10.06-11.41.56
+[2017.10.06-09.41.56:011][209]LogWorld: Bringing up level for play took: 0.001148
+[2017.10.06-09.41.56:016][209]PIE: Play in editor start time for /Game/Level/UEDPIE_0_HauntedMap01 1.045
+[2017.10.06-09.42.12:375][840]BlueprintLog: New page: Compile PlayerBP2
+[2017.10.06-09.42.27:825][286]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SpriteSheet_TileMap)
+[2017.10.06-09.42.30:036][496]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBP2" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset" SILENT=true
+[2017.10.06-09.42.30:187][496]LogSavePackage: Save=129.85ms
+[2017.10.06-09.42.30:187][496]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/PlayerBP256FAA1F14EC56DA878C63DA776F031C7.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset'
+[2017.10.06-09.42.30:191][496]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset
+[2017.10.06-09.42.30:647][535]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.06-09.42.30:667][535]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.06-09.42.30:667][535]PIE: New page: PIE session: HauntedMap01 (Oct 6, 2017, 1:42:30 PM)
+[2017.10.06-09.42.30:667][535]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_HauntedMap01
+[2017.10.06-09.42.30:668][535]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001108s)
+[2017.10.06-09.42.30:669][535]LogAIModule: Creating AISystem for world HauntedMap01
+[2017.10.06-09.42.30:670][535]LogPlayLevel: PIE: World Init took: (0.001212s)
+[2017.10.06-09.42.30:670][535]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/HauntedMap01.HauntedMap01 to /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 (0.002560s)
+[2017.10.06-09.42.30:694][535]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.06-09.42.30:700][535]LogInit: FAudioDevice initialized.
+[2017.10.06-09.42.30:752][535]LogLoad: Game class is 'GameControllerBP_C'
+[2017.10.06-09.42.30:753][535]LogWorld: Bringing World /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 up for play (max tick rate 0) at 2017.10.06-11.42.30
+[2017.10.06-09.42.30:753][535]LogWorld: Bringing up level for play took: 0.001088
+[2017.10.06-09.42.30:757][535]PIE: Play in editor start time for /Game/Level/UEDPIE_0_HauntedMap01 -0.216
+[2017.10.06-09.44.16:343][ 23]LogSavePackage: Save=4.33ms
+[2017.10.06-09.44.16:344][ 23]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotAttackKnight682DF5914F6573ACB20DEBB39DE0EB9F.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotAttackKnight.uasset'
+[2017.10.06-09.44.16:347][ 23]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotAttackKnight.uasset
+[2017.10.06-09.44.26:768][894]LogSavePackage: Save=4.32ms
+[2017.10.06-09.44.26:768][894]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopLeftAttackKnight9690D7024355BB56D4092C8A1400B447.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopLeftAttackKnight.uasset'
+[2017.10.06-09.44.26:772][894]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopLeftAttackKnight.uasset
+[2017.10.06-09.44.29:577][186]LogSavePackage: Save=4.04ms
+[2017.10.06-09.44.29:577][186]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopAttackKnight7081713E42FE60A7F56938BF25953739.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopAttackKnight.uasset'
+[2017.10.06-09.44.29:581][186]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopAttackKnight.uasset
+[2017.10.06-09.44.32:463][420]LogSavePackage: Save=3.99ms
+[2017.10.06-09.44.32:463][420]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_RightAttackKnight2C23D20F41002E07673CA1811AFEA1C1.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_RightAttackKnight.uasset'
+[2017.10.06-09.44.32:466][420]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_RightAttackKnight.uasset
+[2017.10.06-09.44.35:995][724]LogSavePackage: Save=4.07ms
+[2017.10.06-09.44.35:995][724]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_LeftAttackKnight91C03EE94D968FA66826859BD824D87E.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_LeftAttackKnight.uasset'
+[2017.10.06-09.44.35:998][724]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_LeftAttackKnight.uasset
+[2017.10.06-09.44.40:071][161]LogSavePackage: Save=3.92ms
+[2017.10.06-09.44.40:071][161]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotRightAttackKinght3377716744A3B0BCEB7AE0A861290A96.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotRightAttackKinght.uasset'
+[2017.10.06-09.44.40:075][161]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotRightAttackKinght.uasset
+[2017.10.06-09.44.45:875][804]LogSavePackage: Save=4.08ms
+[2017.10.06-09.44.45:875][804]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopRightAttackKnight02ABD9C24C1E3BE463629A95283B347B.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopRightAttackKnight.uasset'
+[2017.10.06-09.44.45:878][804]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopRightAttackKnight.uasset
+[2017.10.06-09.44.53:696][589]LogSavePackage: Save=4.53ms
+[2017.10.06-09.44.53:696][589]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotLeftAttackKnight76B6A5DB42B6B4863432ADBA1BBD2AB5.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotLeftAttackKnight.uasset'
+[2017.10.06-09.44.53:700][589]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotLeftAttackKnight.uasset
+[2017.10.06-09.45.15:316][687]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBP2" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset" SILENT=true
+[2017.10.06-09.45.15:469][687]LogSavePackage: Save=132.13ms
+[2017.10.06-09.45.15:469][687]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/PlayerBP2E869AEE941A2CFA9EBF8C8AA105A3901.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset'
+[2017.10.06-09.45.15:475][687]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset
+[2017.10.06-09.45.30:211][389]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.06-09.45.30:233][389]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.06-09.45.30:254][389]LogPlayLevel: [PlayLevel] Compiling PlayerBP2 before play...
+[2017.10.06-09.45.30:491][389]LogPlayLevel: PlayLevel: Blueprint regeneration took 258 ms (1 blueprints)
+[2017.10.06-09.45.30:491][389]PIE: New page: PIE session: HauntedMap01 (Oct 6, 2017, 1:45:30 PM)
+[2017.10.06-09.45.30:491][389]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_HauntedMap01
+[2017.10.06-09.45.30:492][389]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001122s)
+[2017.10.06-09.45.30:493][389]LogAIModule: Creating AISystem for world HauntedMap01
+[2017.10.06-09.45.30:493][389]LogPlayLevel: PIE: World Init took: (0.000755s)
+[2017.10.06-09.45.30:493][389]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/HauntedMap01.HauntedMap01 to /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 (0.002103s)
+[2017.10.06-09.45.30:517][389]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.06-09.45.30:522][389]LogInit: FAudioDevice initialized.
+[2017.10.06-09.45.30:571][389]LogLoad: Game class is 'GameControllerBP_C'
+[2017.10.06-09.45.30:572][389]LogWorld: Bringing World /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 up for play (max tick rate 0) at 2017.10.06-11.45.30
+[2017.10.06-09.45.30:573][389]LogWorld: Bringing up level for play took: 0.001265
+[2017.10.06-09.45.30:576][389]PIE: Play in editor start time for /Game/Level/UEDPIE_0_HauntedMap01 -0.407
+[2017.10.06-09.46.07:250][676]BlueprintLog: New page: Compile PlayerBP2
+[2017.10.06-09.46.08:419][757]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.06-09.46.08:440][757]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.06-09.46.08:440][757]PIE: New page: PIE session: HauntedMap01 (Oct 6, 2017, 1:46:08 PM)
+[2017.10.06-09.46.08:440][757]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_HauntedMap01
+[2017.10.06-09.46.08:441][757]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001203s)
+[2017.10.06-09.46.08:442][757]LogAIModule: Creating AISystem for world HauntedMap01
+[2017.10.06-09.46.08:442][757]LogPlayLevel: PIE: World Init took: (0.000875s)
+[2017.10.06-09.46.08:442][757]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/HauntedMap01.HauntedMap01 to /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 (0.002336s)
+[2017.10.06-09.46.08:468][757]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.06-09.46.08:473][757]LogInit: FAudioDevice initialized.
+[2017.10.06-09.46.08:523][757]LogLoad: Game class is 'GameControllerBP_C'
+[2017.10.06-09.46.08:524][757]LogWorld: Bringing World /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 up for play (max tick rate 0) at 2017.10.06-11.46.08
+[2017.10.06-09.46.08:525][757]LogWorld: Bringing up level for play took: 0.001130
+[2017.10.06-09.46.08:528][757]PIE: Play in editor start time for /Game/Level/UEDPIE_0_HauntedMap01 -0.457
+[2017.10.06-09.46.29:480][135]BlueprintLog: New page: Compile PlayerBP2
+[2017.10.06-09.46.34:434][631]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level/HauntedMap01" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Level/HauntedMap01.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2017.10.06-09.46.34:505][631]LogSavePackage: Save=32.20ms
+[2017.10.06-09.46.34:505][631]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/HauntedMap0141719E9B4A696DFE05C8F39B8990F202.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Level/HauntedMap01.umap'
+[2017.10.06-09.46.34:508][631]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Level/HauntedMap01.umap
+[2017.10.06-09.48.08:007][580]LogSavePackage: Save=5.17ms
+[2017.10.06-09.48.08:007][580]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotAttackKnightC9BF4CAD4B403CB858161488C72539B0.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotAttackKnight.uasset'
+[2017.10.06-09.48.08:012][580]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotAttackKnight.uasset
+[2017.10.06-09.48.16:278][139]LogSavePackage: Save=4.26ms
+[2017.10.06-09.48.16:278][139]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotAttackKnightA7BE88794D13F647A8189EB599645DF6.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotAttackKnight.uasset'
+[2017.10.06-09.48.16:282][139]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotAttackKnight.uasset
+[2017.10.06-09.48.26:443][996]LogSavePackage: Save=1.77ms
+[2017.10.06-09.48.26:443][996]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopRightAttackKnight633DE81448A91CE07B62E99C66DD02DB.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopRightAttackKnight.uasset'
+[2017.10.06-09.48.26:447][996]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopRightAttackKnight.uasset
+[2017.10.06-09.48.31:702][470]LogSavePackage: Save=1.60ms
+[2017.10.06-09.48.31:702][470]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopLeftAttackKnight8D785BF34B32932E868FFA93126DB17A.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopLeftAttackKnight.uasset'
+[2017.10.06-09.48.31:706][470]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopLeftAttackKnight.uasset
+[2017.10.06-09.48.35:341][833]LogSavePackage: Save=1.52ms
+[2017.10.06-09.48.35:341][833]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_TopAttackKnight1722BE5A489B7A580DDE7CA698A4BC14.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopAttackKnight.uasset'
+[2017.10.06-09.48.35:345][833]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_TopAttackKnight.uasset
+[2017.10.06-09.48.38:220][103]LogSavePackage: Save=1.80ms
+[2017.10.06-09.48.38:220][103]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_RightAttackKnightE8666DE8489B2F2CD3783AB809E678DA.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_RightAttackKnight.uasset'
+[2017.10.06-09.48.38:225][103]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_RightAttackKnight.uasset
+[2017.10.06-09.48.41:288][389]LogSavePackage: Save=1.54ms
+[2017.10.06-09.48.41:289][389]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_LeftAttackKnight21DF75ED4EECBF3280198A840CC7A43E.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_LeftAttackKnight.uasset'
+[2017.10.06-09.48.41:292][389]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_LeftAttackKnight.uasset
+[2017.10.06-09.48.44:169][659]LogSavePackage: Save=1.61ms
+[2017.10.06-09.48.44:169][659]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotRightAttackKinght37446DDF470488BE15FADFA7C97DF523.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotRightAttackKinght.uasset'
+[2017.10.06-09.48.44:173][659]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotRightAttackKinght.uasset
+[2017.10.06-09.48.47:370][975]LogSavePackage: Save=1.55ms
+[2017.10.06-09.48.47:370][975]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/fb_BotLeftAttackKnightCCD5DD6E4D37192B88B054ABC332E47B.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotLeftAttackKnight.uasset'
+[2017.10.06-09.48.47:374][975]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Art/Flipbook/Kight_Attack/fb_BotLeftAttackKnight.uasset
+[2017.10.06-09.48.53:697][672]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBP2" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset" SILENT=true
+[2017.10.06-09.48.53:853][672]LogSavePackage: Save=132.64ms
+[2017.10.06-09.48.53:853][672]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/PlayerBP2243741104148FA7A61E16F9FEF314EB9.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset'
+[2017.10.06-09.48.53:857][672]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset
+[2017.10.06-09.48.55:035][782]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.06-09.48.55:056][782]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.06-09.48.55:057][782]PIE: New page: PIE session: HauntedMap01 (Oct 6, 2017, 1:48:55 PM)
+[2017.10.06-09.48.55:057][782]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_HauntedMap01
+[2017.10.06-09.48.55:058][782]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001226s)
+[2017.10.06-09.48.55:059][782]LogAIModule: Creating AISystem for world HauntedMap01
+[2017.10.06-09.48.55:059][782]LogPlayLevel: PIE: World Init took: (0.001335s)
+[2017.10.06-09.48.55:060][782]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/HauntedMap01.HauntedMap01 to /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 (0.002836s)
+[2017.10.06-09.48.55:092][782]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.06-09.48.55:098][782]LogInit: FAudioDevice initialized.
+[2017.10.06-09.48.55:147][782]LogLoad: Game class is 'GameControllerBP_C'
+[2017.10.06-09.48.55:149][782]LogWorld: Bringing World /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 up for play (max tick rate 0) at 2017.10.06-11.48.55
+[2017.10.06-09.48.55:149][782]LogWorld: Bringing up level for play took: 0.001262
+[2017.10.06-09.48.55:153][782]PIE: Play in editor start time for /Game/Level/UEDPIE_0_HauntedMap01 0.159
+[2017.10.06-09.49.15:268][150]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.06-09.49.15:288][150]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.06-09.49.15:288][150]PIE: New page: PIE session: HauntedMap01 (Oct 6, 2017, 1:49:15 PM)
+[2017.10.06-09.49.15:289][150]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_HauntedMap01
+[2017.10.06-09.49.15:290][150]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001196s)
+[2017.10.06-09.49.15:290][150]LogAIModule: Creating AISystem for world HauntedMap01
+[2017.10.06-09.49.15:291][150]LogPlayLevel: PIE: World Init took: (0.000806s)
+[2017.10.06-09.49.15:291][150]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/HauntedMap01.HauntedMap01 to /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 (0.002526s)
+[2017.10.06-09.49.15:314][150]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.06-09.49.15:319][150]LogInit: FAudioDevice initialized.
+[2017.10.06-09.49.15:367][150]LogLoad: Game class is 'GameControllerBP_C'
+[2017.10.06-09.49.15:369][150]LogWorld: Bringing World /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 up for play (max tick rate 0) at 2017.10.06-11.49.15
+[2017.10.06-09.49.15:369][150]LogWorld: Bringing up level for play took: 0.001101
+[2017.10.06-09.49.15:372][150]PIE: Play in editor start time for /Game/Level/UEDPIE_0_HauntedMap01 0.376
+[2017.10.06-09.49.32:840][151]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBP2" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset" SILENT=true
+[2017.10.06-09.49.32:978][151]LogSavePackage: Save=126.94ms
+[2017.10.06-09.49.32:978][151]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/PlayerBP2AB03AA954A8E13BD697CD799036D3072.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset'
+[2017.10.06-09.49.32:990][151]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset
+[2017.10.06-09.49.33:919][241]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.06-09.49.33:940][241]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.10.06-09.49.33:962][241]LogPlayLevel: [PlayLevel] Compiling PlayerBP2 before play...
+[2017.10.06-09.49.34:181][241]LogPlayLevel: PlayLevel: Blueprint regeneration took 241 ms (1 blueprints)
+[2017.10.06-09.49.34:182][241]PIE: New page: PIE session: HauntedMap01 (Oct 6, 2017, 1:49:34 PM)
+[2017.10.06-09.49.34:182][241]LogPlayLevel: Creating play world package: /Game/Level/UEDPIE_0_HauntedMap01
+[2017.10.06-09.49.34:183][241]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001089s)
+[2017.10.06-09.49.34:183][241]LogAIModule: Creating AISystem for world HauntedMap01
+[2017.10.06-09.49.34:184][241]LogPlayLevel: PIE: World Init took: (0.000787s)
+[2017.10.06-09.49.34:184][241]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level/HauntedMap01.HauntedMap01 to /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 (0.002111s)
+[2017.10.06-09.49.34:206][241]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.06-09.49.34:212][241]LogInit: FAudioDevice initialized.
+[2017.10.06-09.49.34:261][241]LogLoad: Game class is 'GameControllerBP_C'
+[2017.10.06-09.49.34:263][241]LogWorld: Bringing World /Game/Level/UEDPIE_0_HauntedMap01.HauntedMap01 up for play (max tick rate 0) at 2017.10.06-11.49.34
+[2017.10.06-09.49.34:263][241]LogWorld: Bringing up level for play took: 0.001223
+[2017.10.06-09.49.34:266][241]PIE: Play in editor start time for /Game/Level/UEDPIE_0_HauntedMap01 1.271
+[2017.10.06-09.49.43:938][374]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBP2" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset" SILENT=true
+[2017.10.06-09.49.44:074][374]LogSavePackage: Save=125.76ms
+[2017.10.06-09.49.44:075][374]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/PlayerBP29E0DE55945E4F1A96BD7998C4B4B423A.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset'
+[2017.10.06-09.49.44:077][374]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset
+[2017.10.06-09.50.15:525][979]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/PlayerBP2" FILE="C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset" SILENT=true
+[2017.10.06-09.50.15:673][979]LogSavePackage: Save=126.63ms
+[2017.10.06-09.50.15:673][979]LogSavePackage: Moving 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Saved/PlayerBP2E15D5798495D82DE294134B7F53954C6.tmp' to 'C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset'
+[2017.10.06-09.50.15:676][979]LogSavePackage: Display: Finished SavePackage C:/Users/gmr2/Documents/Unreal Projects/Haunted/Haunted02/Content/Blueprints/PlayerBP2.uasset
+[2017.10.06-09.50.16:515][ 58]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
